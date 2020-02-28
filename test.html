@@ -91,10 +91,10 @@
       machineSound.pause()
     }
 
-    fingerBox.ontouchstart = startHandler
+    fingerBox.addEventListener('touchstart', startHandler)
     fingerBox.onmousedown = startHandler
 
-    fingerBox.ontouchend = startHandler
+    fingerBox.addEventListener('touchend', endHandler)
     fingerBox.onmouseup = endHandler
   }
 </script>
