@@ -63,7 +63,9 @@
 
     var idInterval
 
-    fingerBox.onmousedown = () => {
+    
+
+    var startHandler = () => {
       fingerBox.classList.add('active')
       fingerBox.classList.add('active')
       machineSound.play()
@@ -83,11 +85,17 @@
       }, 1000)
     }
 
-    fingerBox.onmouseup = () => {
+    var endHandler = () => {
       clearInterval(idInterval)
       fingerBox.classList.remove('active')
       machineSound.pause()
     }
+
+    fingerBox.ontouchstart = startHandler
+    fingerBox.onmousedown = startHandler
+
+    fingerBox.ontouchend = startHandler
+    fingerBox.onmouseup = endHandler
   }
 </script>
 </html>
