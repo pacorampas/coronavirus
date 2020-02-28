@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coronavirus test</title>
+  <style>
+    * {
+      text-align: center;
+    } 
+
+    #finger-box-wrapper {
+      display: flex;
+      justify-content: center;
+    }
+
+    #finger-box {
+      width: 200px;
+      height: 200px;
+      border: solid 1px #ddd;
+      background: url(finger-print.png);
+      background-size: 50%;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #finger-box.active {
+      background-color: red;
+      animation-name: scanner;
+      animation-duration: 0.6s;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+
+    @keyframes scanner {
+      from {
+        background-color: red;
+      }
+      to {
+        background-color: yellow;
+      }
+    }
+
+  </style>
+</head>
+<body>
+  <h1>Test de huella dactilar</h1>
+  <p>Situa tu dedo sobre la caja y espera a que finalice el test</p>
+  <div id="finger-box-wrapper">
+    <div id="finger-box"></div>
+  </div>
+  <p>Manten el dedo hasta que acabe la cuenta atrás (<span id="count-down"></span>)</p>
+  <audio id="machine-sound" src="machine-sound.mp3"></audio>
+</body>
+<script>
+  var fingerBox = document.getElementById('finger-box')
+  var machineSound = document.getElementById('machine-sound')
+  var countDown = document.getElementById('count-down')
+
+  machineSound.onloadedmetadata = function() {
+    var duration = 14
+    countDown.innerHTML = duration
+
+    var idInterval
+
+    fingerBox.onmousedown = () => {
+      fingerBox.classList.add('active')
+      fingerBox.classList.add('active')
+      machineSound.play()
+
+      idInterval = setInterval(() => {
+        duration -= 1
+        countDown.innerHTML = duration
+
+        if (duration === 0) {
+          clearInterval(idInterval)
+          fingerBox.onmousedown = null
+          fingerBox.onmouseup = null
+          fingerBox.classList.remove('active')
+          machineSound.pause()
+          window.location.href = 'result.html'
+        }
+      }, 1000)
+    }
+
+    fingerBox.onmouseup = () => {
+      clearInterval(idInterval)
+      fingerBox.classList.remove('active')
+      machineSound.pause()
+    }
+  }
+</script>
+</html>
