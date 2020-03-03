@@ -20,6 +20,7 @@ body {
 
 body.result {
   background: url(assets/bg-result.png);
+  background-size: 100%;
 }
 
 h1 {
