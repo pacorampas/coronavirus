@@ -4,6 +4,9 @@
   <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
 
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
+
   <script>
 
     const CONFIG = {
@@ -28,53 +31,23 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coronavirus test</title>
-  <style>
-    * {
-      text-align: center;
-    } 
-
-    #finger-box-wrapper {
-      display: flex;
-      justify-content: center;
-    }
-
-    #finger-box {
-      width: 200px;
-      height: 200px;
-      border: solid 1px #ddd;
-      background: url(finger-print.png);
-      background-size: 50%;
-      background-repeat: no-repeat;
-      background-position: center;
-    }
-
-    #finger-box.active {
-      background-color: red;
-      animation-name: scanner;
-      animation-duration: 0.6s;
-      animation-iteration-count: infinite;
-      animation-direction: alternate;
-    }
-
-    @keyframes scanner {
-      from {
-        background-color: red;
-      }
-      to {
-        background-color: yellow;
-      }
-    }
-
-  </style>
 </head>
-<body>
-  <h1>Test de huella dactilar</h1>
-  <p>Situa tu dedo sobre la caja y espera a que finalice el test</p>
-  <div id="finger-box-wrapper">
-    <div id="finger-box"></div>
+<body class="test">
+  <h1>Test de huella<br />dactilar</h1>
+  <div>
+    <p>Manten el dedo sobre la huella hasta que acabe la cuenta atrás (<strong><span id="count-down"></span></strong>)</p>
   </div>
-  <p>Manten el dedo hasta que acabe la cuenta atrás (<span id="count-down"></span>)</p>
-  <audio id="machine-sound" src="machine-sound.mp3"></audio>
+  <div class="test-content">
+    <div id="finger-box-wrapper">
+      <div id="finger-box">
+        <div class="finger-print"></div>
+      </div>
+    </div>
+    <audio id="machine-sound" src="machine-sound.mp3"></audio>
+  </div>
+  <div class="result-wrapper-logo">
+    <img width="30%" src="assets/logo.svg" />
+  </div>
 </body>
 <script>
   var fingerBox = document.getElementById('finger-box')

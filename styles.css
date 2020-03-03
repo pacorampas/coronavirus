@@ -1,0 +1,203 @@
+* {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  padding: 32px;
+  padding-bottom: 16px;
+  background: url(assets/bg-main.png);
+}
+
+body.result {
+  background: url(assets/bg-result.png);
+}
+
+h1 {
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+.disclaimer {
+  padding-top: 16px;
+  font-size: 14px;
+}
+
+.index-wrapper {
+  max-width: 700px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.index-title {
+  font-size: 7vw;
+}
+
+@media screen and (min-width: 700px) {
+  .index-title {
+     font-size: 50px;
+  }
+}
+
+.index-wrapper-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.index-wrapper-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button {
+  display: inline-block;
+  width: 100%;
+  border: solid 2px #01f6f7;
+  background-color: rgba(0, 0, 0, 0.7);
+  text-decoration: none;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px 16px;
+}
+
+.button.warning {
+  border-color: #e6bf00;
+}
+
+.test {
+  display: flex;
+  flex-direction: column;
+}
+
+.test-content {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#finger-box-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+#finger-box {
+  width: 375px;
+  height: 264px;
+  border: 0;
+  background: url(assets/fingerprint-press.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.finger-print {
+  content: '';
+  position: absolute;
+  width: 60px;
+  top: 101px;
+  left: 159px;
+  background: url(assets/finger-print.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  z-index: 2;
+  height: 200px;
+}
+
+#finger-box:before {
+  content: '';
+  display: none;
+  width: 351px;
+  height: 6px;
+  border-radius: 3px;
+  border: solid 4px rgba(0, 0, 0, 0.5);
+  background-color: #ff2859;
+  position: absolute;
+  z-index: 3;
+}
+
+#finger-box.active:before {
+  display: block;
+  animation-name: scanner;
+  animation-timing-function: linear;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes scanner {
+  from {
+    top: 45px;
+  }
+  to {
+    top: 210px;
+  }
+}
+
+
+body.result {
+  display: flex;
+  flex-direction: column;
+}
+
+.result-list {
+  padding-left: 16px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.result p {
+  text-align: left;
+}
+
+.result-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.result-share-button {
+  margin-top: 40px;
+}

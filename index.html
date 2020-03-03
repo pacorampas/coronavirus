@@ -4,6 +4,9 @@
   <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
 
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
+
   <script>
 
     const CONFIG = {
@@ -28,16 +31,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coronavirus test</title>
-  <style>
-    * {
-      text-align: center;
-    } 
-  </style>
 </head>
 <body>
-  <h1>Has sido infectado por coronavirus</h1>
-  <p>Si no te lo crees haz el test.</p>
-  <a href="result.html">Hacer test rápido (menos de un minuto)</a><br />
-  <a href="test.html">Hacer test no tan rápido (también menos de un minuto)</a>
+  <div class="index-wrapper">
+    <div class="index-wrapper-logo">
+      <img width="60%" src="assets/logo.svg" />
+    </div>
+    <div class="index-wrapper-content">
+      <h1 class="index-title">Has sido<br />infectado por<br />coronavirus</h1>
+      <p>Si no te lo crees haz el test...</p>
+    </div>
+    <a class="button warning" href="result.html"><strong>TEST RÁPIDO</strong><br />(menos de un minuto)</a><br />
+    <a class="button" href="test.html"><strong>TEST PRECISO</strong><br />(también menos de un minuto)</a>
+    <p class="disclaimer">Todo esto son absurdeces, tú ni caso</p>
+  </div>
 </body>
 </html>

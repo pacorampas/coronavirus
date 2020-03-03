@@ -1,0 +1,572 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="375" height="264" viewBox="0 0 375 264">
+    <defs>
+        <radialGradient id="prefix__a" cx="208.741%" cy="-451.145%" r="734.143%" fx="208.741%" fy="-451.145%" gradientTransform="matrix(.84576 0 0 1 .322 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__b" cx="978.614%" cy="-353.5%" r="1602.769%" fx="978.614%" fy="-353.5%" gradientTransform="matrix(1 0 0 .37257 0 -2.218)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__c" cx="376.738%" cy="-255.985%" r="812.021%" fx="376.738%" fy="-255.985%" gradientTransform="matrix(1 0 0 .92978 0 -.18)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__d" cx="329.944%" cy="-727.916%" r="1543.82%" fx="329.944%" fy="-727.916%" gradientTransform="matrix(.3566 0 0 1 2.123 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__e" cx="222.124%" cy="-251.839%" r="1131.321%" fx="222.124%" fy="-251.839%" gradientTransform="matrix(.28178 0 0 1 1.595 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__f" cx="159.97%" cy="-43.021%" r="198.108%" fx="159.97%" fy="-43.021%" gradientTransform="matrix(1 0 0 .95066 0 -.021)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__g" cx="630.948%" cy="-386.294%" r="843.36%" fx="630.948%" fy="-386.294%" gradientTransform="matrix(1 0 0 .97145 0 -.11)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__h" cx="342.507%" cy="274.859%" r="1575.155%" fx="342.507%" fy="274.859%" gradientTransform="matrix(1 0 0 .2796 0 1.98)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__i" cx="231.333%" cy="-274.455%" r="785.537%" fx="231.333%" fy="-274.455%" gradientTransform="matrix(1 0 0 .79457 0 -.564)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__j" cx="291.317%" cy="-402.669%" r="699.722%" fx="291.317%" fy="-402.669%" gradientTransform="matrix(.80228 0 0 1 .576 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__k" cx="437.16%" cy="-805.614%" r="1130.594%" fx="437.16%" fy="-805.614%" gradientTransform="matrix(.57661 0 0 1 1.85 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__l" cx="265.608%" cy="-472.815%" r="1335.232%" fx="265.608%" fy="-472.815%" gradientTransform="matrix(.24778 0 0 1 1.998 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__m" cx="463.544%" cy="-297.244%" r="619.601%" fx="463.544%" fy="-297.244%" gradientTransform="matrix(1 0 0 .88013 0 -.356)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__n" cx="266.274%" cy="-593.208%" r="931.302%" fx="266.274%" fy="-593.208%" gradientTransform="matrix(.6651 0 0 1 .892 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__o" cx="-434.996%" cy="276.689%" r="1607.21%" fx="-434.996%" fy="276.689%" gradientTransform="matrix(1 0 0 .33202 0 1.848)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__p" cx="-122.123%" cy="-251.839%" r="1131.317%" fx="-122.123%" fy="-251.839%" gradientTransform="matrix(.28178 0 0 1 -.877 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__q" cx="-567.946%" cy="-418.158%" r="1915.511%" fx="-567.946%" fy="-418.158%" gradientTransform="matrix(.61636 0 0 1 -2.179 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__r" cx="-229.952%" cy="-186.244%" r="1099.887%" fx="-229.952%" fy="-186.244%" gradientTransform="matrix(.486 0 0 1 -1.182 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__s" cx="-165.607%" cy="-472.815%" r="1335.224%" fx="-165.607%" fy="-472.815%" gradientTransform="matrix(.24778 0 0 1 -1.246 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__t" cx="-59.97%" cy="-43.021%" r="198.108%" fx="-59.97%" fy="-43.021%" gradientTransform="matrix(1 0 0 .95066 0 -.021)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__u" cx="278.941%" cy="354.947%" r="2252.658%" fx="278.941%" fy="354.947%" gradientTransform="matrix(1 0 0 .24728 0 2.672)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__v" cx="-62.106%" cy="-112.753%" r="1474.472%" fx="-62.106%" fy="-112.753%" gradientTransform="matrix(1 0 0 .20068 0 -.901)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__w" cx="736.736%" cy="-246.969%" r="6292.76%" fx="736.736%" fy="-246.969%" gradientTransform="matrix(1 0 0 .0757 0 -2.283)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__x" cx="-530.949%" cy="-386.3%" r="843.364%" fx="-530.949%" fy="-386.3%" gradientTransform="matrix(1 0 0 .97146 0 -.11)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__y" cx="-41.991%" cy="-1343.014%" r="1787.03%" fx="-41.991%" fy="-1343.014%" gradientTransform="matrix(.25082 0 0 1 -.315 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__z" cx="-69.624%" cy="-79.106%" r="332.456%" fx="-69.624%" fy="-79.106%" gradientTransform="matrix(1 0 0 .71442 0 -.226)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__A" cx="-190.023%" cy="302.622%" r="1455.991%" fx="-190.023%" fy="302.622%" gradientTransform="matrix(1 0 0 .32337 0 2.048)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__B" cx="656.658%" cy="-369.155%" r="1193.78%" fx="656.658%" fy="-369.155%" gradientTransform="matrix(.6268 0 0 1 2.45 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__C" cx="-443.395%" cy="-18.293%" r="757.528%" fx="-443.395%" fy="-18.293%" gradientTransform="matrix(.66217 0 0 1 -1.498 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__D" cx="1228.135%" cy="-242.127%" r="1646.862%" fx="1228.135%" fy="-242.127%" gradientTransform="matrix(.77677 0 0 1 2.742 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__E" cx="-472.461%" cy="-120.399%" r="924.355%" fx="-472.461%" fy="-120.399%" gradientTransform="matrix(.68824 0 0 1 -1.473 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__F" cx="-75.153%" cy="-68.139%" r="593.447%" fx="-75.153%" fy="-68.139%" gradientTransform="matrix(.36416 0 0 1 -.478 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__G" cx="428.514%" cy="-40.168%" r="986.261%" fx="428.514%" fy="-40.168%" gradientTransform="matrix(.51858 0 0 1 2.063 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__H" cx="592.82%" cy="15.523%" r="624.095%" fx="592.82%" fy="15.523%" gradientTransform="matrix(.99604 0 0 1 .023 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__I" cx="1090.834%" cy="-120.075%" r="1438.394%" fx="1090.834%" fy="-120.075%" gradientTransform="matrix(.99464 0 0 1 .059 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__J" cx="534.996%" cy="276.691%" r="1607.211%" fx="534.996%" fy="276.691%" gradientTransform="matrix(1 0 0 .33203 0 1.848)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__K" cx="-329.41%" cy="226.327%" r="705.328%" fx="-329.41%" fy="226.327%" gradientTransform="matrix(.55405 0 0 1 -1.469 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__L" cx="-492.82%" cy="84.477%" r="624.095%" fx="-492.82%" fy="84.477%" gradientTransform="matrix(.99604 0 0 1 -.02 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__M" cx="-735.06%" cy="844.321%" r="6292.766%" fx="-735.06%" fy="844.321%" gradientTransform="matrix(.11601 0 0 1 -6.498 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__N" cx="373.891%" cy="-96.633%" r="902.224%" fx="373.891%" fy="-96.633%" gradientTransform="matrix(.46798 0 0 1 1.99 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__O" cx="-147.969%" cy="-44.204%" r="894.344%" fx="-147.969%" fy="-44.204%" gradientTransform="matrix(.40091 0 0 1 -.886 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__P" cx="-216.739%" cy="212.626%" r="2147.863%" fx="-216.739%" fy="212.626%" gradientTransform="matrix(.24246 0 0 1 -1.642 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__Q" cx="-75.153%" cy="168.14%" r="593.446%" fx="-75.153%" fy="168.14%" gradientTransform="matrix(.36416 0 0 1 -.478 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__R" cx="222.124%" cy="351.837%" r="1131.32%" fx="222.124%" fy="351.837%" gradientTransform="matrix(.28178 0 0 1 1.595 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__S" cx="329.952%" cy="286.239%" r="1099.87%" fx="329.952%" fy="286.239%" gradientTransform="matrix(.486 0 0 1 1.696 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__T" cx="265.608%" cy="572.814%" r="1335.233%" fx="265.608%" fy="572.814%" gradientTransform="matrix(.24778 0 0 1 1.998 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__U" cx="667.946%" cy="518.156%" r="1915.506%" fx="667.946%" fy="518.156%" gradientTransform="matrix(.61636 0 0 1 2.562 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__V" cx="535.007%" cy="-176.692%" r="1607.248%" fx="535.007%" fy="-176.692%" gradientTransform="matrix(1 0 0 .33202 0 -1.18)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__W" cx="656.658%" cy="469.155%" r="1193.776%" fx="656.658%" fy="469.155%" gradientTransform="matrix(.6268 0 0 1 2.45 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__X" cx="572.46%" cy="220.397%" r="924.341%" fx="572.46%" fy="220.397%" gradientTransform="matrix(.68825 0 0 1 1.785 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__Y" cx="519.528%" cy="-294.738%" r="2213.885%" fx="519.528%" fy="-294.738%" gradientTransform="matrix(.38571 0 0 1 3.191 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__Z" cx="316.74%" cy="-112.633%" r="2147.936%" fx="316.74%" fy="-112.633%" gradientTransform="matrix(.24246 0 0 1 2.4 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aa" cx="247.969%" cy="144.204%" r="894.346%" fx="247.969%" fy="144.204%" gradientTransform="matrix(.40091 0 0 1 1.486 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__ab" cx="172.207%" cy="-81.169%" r="677.743%" fx="172.207%" fy="-81.169%" gradientTransform="matrix(.31892 0 0 1 1.173 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__ac" cx="543.395%" cy="118.294%" r="757.527%" fx="543.395%" fy="118.294%" gradientTransform="matrix(.66217 0 0 1 1.836 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__ad" cx="175.153%" cy="168.139%" r="593.45%" fx="175.153%" fy="168.139%" gradientTransform="matrix(.36416 0 0 1 1.114 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__ae" cx="-878.609%" cy="453.5%" r="1602.76%" fx="-878.609%" fy="453.5%" gradientTransform="matrix(1 0 0 .37257 0 2.845)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__af" cx="236.499%" cy="505.308%" r="626.514%" fx="236.499%" fy="505.308%" gradientTransform="matrix(.82933 0 0 1 .404 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__ag" cx="169.623%" cy="179.106%" r="332.457%" fx="169.623%" fy="179.106%" gradientTransform="matrix(1 0 0 .71442 0 .511)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__ah" cx="166.055%" cy="1184.472%" r="1576.127%" fx="166.055%" fy="1184.472%" gradientTransform="matrix(.30113 0 0 1 1.16 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__ai" cx="978.611%" cy="453.496%" r="1602.767%" fx="978.611%" fy="453.496%" gradientTransform="matrix(1 0 0 .37257 0 2.845)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aj" cx="140.604%" cy="717.883%" r="895.868%" fx="140.604%" fy="717.883%" gradientTransform="matrix(.77062 0 0 1 .323 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__ak" cx="376.738%" cy="355.987%" r="812.022%" fx="376.738%" fy="355.987%" gradientTransform="matrix(1 0 0 .92978 0 .25)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__al" cx="329.947%" cy="827.913%" r="1543.817%" fx="329.947%" fy="827.913%" gradientTransform="matrix(.3566 0 0 1 2.123 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__am" cx="-42.758%" cy="1466.232%" r="1817.924%" fx="-42.758%" fy="1466.232%" gradientTransform="matrix(.25106 0 0 1 -.32 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__an" cx="-668.877%" cy="1960.99%" r="2431.356%" fx="-668.877%" fy="1960.99%" gradientTransform="matrix(.79841 0 0 1 -1.348 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__ao" cx="-136.499%" cy="505.308%" r="626.512%" fx="-136.499%" fy="505.308%" gradientTransform="matrix(.82933 0 0 1 -.233 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__ap" cx="-69.623%" cy="179.106%" r="332.455%" fx="-69.623%" fy="179.106%" gradientTransform="matrix(1 0 0 .71442 0 .511)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aq" cx="40.175%" cy="203.266%" r="1151.81%" fx="40.175%" fy="203.266%" gradientTransform="matrix(1 0 0 .2237 0 1.578)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__ar" cx="-62.106%" cy="212.753%" r="1474.475%" fx="-62.106%" fy="212.753%" gradientTransform="matrix(1 0 0 .20068 0 1.7)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__as" cx="48.054%" cy="-104.12%" r="859.945%" fx="48.054%" fy="-104.12%" gradientTransform="matrix(1 0 0 .30424 0 -.724)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__at" cx="291.261%" cy="297.062%" r="541.857%" fx="291.261%" fy="297.062%" gradientTransform="matrix(1 0 0 .8124 0 .557)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__au" cx="148.398%" cy="48.44%" r="634.629%" fx="148.398%" fy="48.44%" gradientTransform="matrix(.20356 0 0 1 1.182 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__av" cx="-329.408%" cy="-126.329%" r="705.333%" fx="-329.408%" fy="-126.329%" gradientTransform="matrix(.55404 0 0 1 -1.469 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aw" cx="835.068%" cy="-744.319%" r="6292.765%" fx="835.068%" fy="-744.319%" gradientTransform="matrix(.11601 0 0 1 7.382 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__ax" cx="429.409%" cy="-126.328%" r="705.327%" fx="429.409%" fy="-126.328%" gradientTransform="matrix(.55405 0 0 1 1.915 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__ay" cx="-48.398%" cy="51.56%" r="634.63%" fx="-48.398%" fy="51.56%" gradientTransform="matrix(.20356 0 0 1 -.385 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__az" cx="-735.061%" cy="-744.319%" r="6292.771%" fx="-735.061%" fy="-744.319%" gradientTransform="matrix(.11601 0 0 1 -6.498 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aA" cx="437.159%" cy="905.612%" r="1130.591%" fx="437.159%" fy="905.612%" gradientTransform="matrix(.57661 0 0 1 1.85 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aB" cx="305.729%" cy="429.075%" r="621.005%" fx="305.729%" fy="429.075%" gradientTransform="matrix(.59099 0 0 1 1.25 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aC" cx="-337.16%" cy="905.598%" r="1130.571%" fx="-337.16%" fy="905.598%" gradientTransform="matrix(.57662 0 0 1 -1.427 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aD" cx="630.948%" cy="486.299%" r="843.36%" fx="630.948%" fy="486.299%" gradientTransform="matrix(1 0 0 .97146 0 .139)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aE" cx="835.06%" cy="844.321%" r="6292.745%" fx="835.06%" fy="844.321%" gradientTransform="matrix(.11601 0 0 1 7.382 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aF" cx="429.408%" cy="226.327%" r="705.335%" fx="429.408%" fy="226.327%" gradientTransform="matrix(.55404 0 0 1 1.915 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aG" cx="149.63%" cy="170.99%" r="310.777%" fx="149.63%" fy="170.99%" gradientTransform="matrix(.52755 0 0 1 .707 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aH" cx="-337.16%" cy="-805.614%" r="1130.592%" fx="-337.16%" fy="-805.614%" gradientTransform="matrix(.57661 0 0 1 -1.427 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aI" cx="-66.055%" cy="1184.5%" r="1576.164%" fx="-66.055%" fy="1184.5%" gradientTransform="matrix(.30112 0 0 1 -.462 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aJ" cx="-190.026%" cy="-202.623%" r="1455.992%" fx="-190.026%" fy="-202.623%" gradientTransform="matrix(1 0 0 .32337 0 -1.371)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aK" cx="-229.947%" cy="-727.914%" r="1543.821%" fx="-229.947%" fy="-727.914%" gradientTransform="matrix(.3566 0 0 1 -1.48 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aL" cx="-435.009%" cy="-176.691%" r="1607.249%" fx="-435.009%" fy="-176.691%" gradientTransform="matrix(1 0 0 .33202 0 -1.18)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aM" cx="-556.659%" cy="-369.153%" r="1193.78%" fx="-556.659%" fy="-369.153%" gradientTransform="matrix(.6268 0 0 1 -2.077 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aN" cx="-341.518%" cy="-190.902%" r="609.244%" fx="-341.518%" fy="-190.902%" gradientTransform="matrix(1 0 0 .59131 0 -.78)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aO" cx="-652.744%" cy="-1818.991%" r="2376.496%" fx="-652.744%" fy="-1818.991%" gradientTransform="matrix(.7997 0 0 1 -1.307 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aP" cx="-191.261%" cy="-197.062%" r="541.858%" fx="-191.261%" fy="-197.062%" gradientTransform="matrix(1 0 0 .8124 0 -.37)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aQ" cx="-66.055%" cy="-1084.499%" r="1576.17%" fx="-66.055%" fy="-1084.499%" gradientTransform="matrix(.30112 0 0 1 -.462 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aR" cx="-878.611%" cy="-353.5%" r="1602.766%" fx="-878.611%" fy="-353.5%" gradientTransform="matrix(1 0 0 .37257 0 -2.218)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aS" cx="-165.608%" cy="572.814%" r="1335.223%" fx="-165.608%" fy="572.814%" gradientTransform="matrix(.24778 0 0 1 -1.246 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aT" cx="-276.741%" cy="-255.989%" r="812.033%" fx="-276.741%" fy="-255.989%" gradientTransform="matrix(1 0 0 .92978 0 -.18)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aU" cx="-136.197%" cy="-402.908%" r="622.801%" fx="-136.197%" fy="-402.908%" gradientTransform="matrix(.83243 0 0 1 -.228 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aV" cx="-229.947%" cy="827.913%" r="1543.824%" fx="-229.947%" fy="827.913%" gradientTransform="matrix(.3566 0 0 1 -1.48 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aW" cx="-343.036%" cy="291.557%" r="611.952%" fx="-343.036%" fy="291.557%" gradientTransform="matrix(1 0 0 .59072 0 1.193)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aX" cx="-556.659%" cy="469.153%" r="1193.777%" fx="-556.659%" fy="469.153%" gradientTransform="matrix(.6268 0 0 1 -2.077 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aY" cx="-122.123%" cy="351.835%" r="1131.302%" fx="-122.123%" fy="351.835%" gradientTransform="matrix(.28178 0 0 1 -.877 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__aZ" cx="-191.261%" cy="297.063%" r="541.857%" fx="-191.261%" fy="297.063%" gradientTransform="matrix(1 0 0 .8124 0 .557)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__ba" cx="-530.949%" cy="486.299%" r="843.362%" fx="-530.949%" fy="486.299%" gradientTransform="matrix(1 0 0 .97146 0 .139)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__bb" cx="-276.738%" cy="355.992%" r="812.021%" fx="-276.738%" fy="355.992%" gradientTransform="matrix(1 0 0 .9298 0 .25)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__bc" cx="-59.97%" cy="143.021%" r="198.108%" fx="-59.97%" fy="143.021%" gradientTransform="matrix(1 0 0 .95065 0 .07)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__bd" cx="-990.812%" cy="220.075%" r="1438.393%" fx="-990.812%" fy="220.075%" gradientTransform="matrix(.99461 0 0 1 -.053 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__be" cx="-567.946%" cy="518.144%" r="1915.448%" fx="-567.946%" fy="518.144%" gradientTransform="matrix(.61638 0 0 1 -2.179 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__bf" cx="-1128.157%" cy="342.12%" r="1646.825%" fx="-1128.157%" fy="342.12%" gradientTransform="matrix(.7768 0 0 1 -2.518 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__bg" cx="-229.953%" cy="286.241%" r="1099.873%" fx="-229.953%" fy="286.241%" gradientTransform="matrix(.486 0 0 1 -1.182 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__bh" cx="-328.515%" cy="140.166%" r="986.259%" fx="-328.515%" fy="140.166%" gradientTransform="matrix(.51858 0 0 1 -1.582 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+        <radialGradient id="prefix__bi" cx="-273.89%" cy="196.629%" r="902.212%" fx="-273.89%" fy="196.629%" gradientTransform="matrix(.46798 0 0 1 -1.457 0)">
+            <stop offset="0%" stop-color="#01F6F7"/>
+            <stop offset="100%" stop-color="#0DF6F7" stop-opacity="0"/>
+        </radialGradient>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="url(#prefix__a)" fill-rule="nonzero" d="M133.937 254.242c.712 0 1.29-.576 1.295-1.287l22.882-9.137v-9.308c.474-.193.807-.657.807-1.2 0-.715-.58-1.296-1.296-1.296-.716 0-1.297.58-1.297 1.297 0 .542.334 1.006.807 1.2v8.644l-22.267 8.89c-.236-.244-.565-.397-.931-.397-.717 0-1.297.58-1.297 1.297 0 .716.58 1.297 1.297 1.297z"/>
+        <path fill="url(#prefix__b)" fill-rule="nonzero" d="M96.517 230.907c.075.014.152.023.232.023.716 0 1.297-.58 1.297-1.296 0-.716-.58-1.297-1.297-1.297-.716 0-1.296.58-1.296 1.297 0 .278.09.534.238.746l-7.02 10.982v11.807c-.473.193-.806.656-.806 1.199 0 .716.58 1.297 1.296 1.297.716 0 1.297-.581 1.297-1.297 0-.543-.334-1.006-.807-1.2v-11.52l6.866-10.741z"/>
+        <path fill="url(#prefix__c)" fill-rule="nonzero" d="M113.088 206.083c-.716 0-1.296.58-1.296 1.296 0 .716.58 1.297 1.296 1.297.716 0 1.297-.58 1.297-1.297 0-.194-.046-.376-.122-.541 1.469-1.575 4.703-5.047 7.912-8.51 4.812-5.192 7.007-7.594 8.017-8.741.127.04.259.069.399.069.716 0 1.296-.58 1.296-1.297 0-.716-.58-1.296-1.296-1.296-.716 0-1.297.58-1.297 1.296 0 .218.059.42.153.6-2.393 2.686-10.137 11.032-15.9 17.211-.143-.054-.297-.087-.459-.087z"/>
+        <path fill="url(#prefix__d)" fill-rule="nonzero" d="M104.038 209.483H92.197c-.194-.473-.657-.807-1.2-.807-.716 0-1.296.58-1.296 1.297 0 .716.58 1.296 1.296 1.296.543 0 1.006-.333 1.2-.807h11.117l2.696 8.784 11.037-3.38c.237.29.594.48.998.48.716 0 1.297-.58 1.297-1.297 0-.716-.58-1.296-1.297-1.296-.675 0-1.224.518-1.284 1.178l-10.102 3.093-2.621-8.54z"/>
+        <path fill="url(#prefix__e)" fill-rule="nonzero" d="M76.284 180.679c-.198-.463-.657-.787-1.192-.787-.716 0-1.296.58-1.296 1.296 0 .716.58 1.297 1.296 1.297.55 0 1.017-.344 1.206-.827l28.362-.472 18.19-10.847c.227.193.517.315.839.315.716 0 1.296-.58 1.296-1.297 0-.716-.58-1.296-1.296-1.296-.716 0-1.297.58-1.297 1.296 0 .038.008.072.011.109l-18.02 10.745-28.099.468z"/>
+        <path fill="url(#prefix__f)" fill-rule="nonzero" d="M104.235 202.186H75.85l-18.547 18.548v30.808c-.902.232-1.57 1.049-1.57 2.023 0 1.155.937 2.092 2.092 2.092 1.156 0 2.092-.937 2.092-2.092 0-.998-.7-1.832-1.635-2.04v-30.386l17.974-17.973h28.386l33.462-33.463-.692-.692-33.176 33.175z"/>
+        <path fill="url(#prefix__g)" fill-rule="nonzero" d="M66.715 226c-.717 0-1.297.58-1.297 1.297 0 .716.58 1.297 1.297 1.297.716 0 1.296-.58 1.296-1.297 0-.186-.04-.362-.111-.522l15.089-15.6c.149.06.31.094.481.094.716 0 1.297-.58 1.297-1.296 0-.716-.58-1.297-1.297-1.297-.716 0-1.296.58-1.296 1.297 0 .185.04.361.11.521l-15.088 15.6c-.15-.059-.311-.094-.481-.094z"/>
+        <path fill="url(#prefix__h)" fill-rule="nonzero" d="M153.314 29.896c-.716 0-1.297.58-1.297 1.297 0 .716.58 1.296 1.297 1.296.17 0 .332-.035.48-.094l7.513 12.458-5.345 16.343 1.584 3.68c-.163.216-.263.483-.263.775 0 .716.58 1.297 1.296 1.297.716 0 1.297-.58 1.297-1.297 0-.716-.58-1.297-1.297-1.297-.063 0-.123.01-.184.019l-1.388-3.224 5.37-16.418-7.866-13.044c.063-.152.099-.319.099-.494 0-.717-.58-1.297-1.296-1.297z"/>
+        <path fill="url(#prefix__i)" fill-rule="nonzero" d="M140.741 227.04c-.716 0-1.297.581-1.297 1.297 0 .717.581 1.297 1.297 1.297s1.297-.58 1.297-1.297c0-.016-.005-.032-.005-.048l17.378-7.88v-14.423c.473-.194.807-.657.807-1.2 0-.716-.58-1.296-1.297-1.296-.716 0-1.296.58-1.296 1.296 0 .543.334 1.006.807 1.2v13.791l-16.803 7.62c-.232-.22-.543-.356-.888-.356z"/>
+        <path fill="url(#prefix__j)" fill-rule="nonzero" d="M129.61 227.777c.237.278.586.458.98.458.717 0 1.297-.58 1.297-1.297 0-.716-.58-1.296-1.296-1.296-.685 0-1.24.533-1.288 1.205l-18.262 6.051-6.823 13.482c-.034-.003-.067-.01-.102-.01-.717 0-1.297.58-1.297 1.296 0 .716.58 1.297 1.297 1.297.716 0 1.296-.58 1.296-1.297 0-.324-.123-.617-.32-.845l6.64-13.12 17.878-5.924z"/>
+        <path fill="url(#prefix__k)" fill-rule="nonzero" d="M100.609 261.639c.193.473.656.807 1.2.807.715 0 1.296-.581 1.296-1.297s-.58-1.297-1.297-1.297c-.543 0-1.006.335-1.2.808H79.86v-10.152c.473-.193.807-.656.807-1.2 0-.715-.581-1.296-1.297-1.296s-1.297.58-1.297 1.297c0 .543.334 1.006.807 1.2v11.13h21.729z"/>
+        <path fill="url(#prefix__l)" fill-rule="nonzero" d="M58.371 199.29c-.175-.088-.37-.142-.58-.142-.715 0-1.296.58-1.296 1.296 0 .716.58 1.297 1.297 1.297.716 0 1.296-.58 1.296-1.297 0-.146-.03-.284-.074-.416l10.014-8.722h34.294c.193.473.657.807 1.2.807.715 0 1.296-.581 1.296-1.297s-.58-1.297-1.297-1.297c-.542 0-1.006.334-1.2.807h-34.66l-10.29 8.964z"/>
+        <path fill="url(#prefix__m)" fill-rule="nonzero" d="M90.458 223.275c.716 0 1.297-.58 1.297-1.297 0-.716-.581-1.296-1.297-1.296s-1.297.58-1.297 1.296c0 .133.026.26.064.38l-22.103 25.726c-.13-.043-.264-.072-.407-.072-.717 0-1.297.58-1.297 1.297 0 .716.58 1.296 1.297 1.296.716 0 1.296-.58 1.296-1.296 0-.213-.056-.41-.147-.588l21.995-25.6c.18.095.382.154.599.154z"/>
+        <path fill="url(#prefix__n)" fill-rule="nonzero" d="M141.46 237.864c.236.249.568.406.939.406.716 0 1.296-.58 1.296-1.296 0-.716-.58-1.297-1.296-1.297-.709 0-1.282.57-1.295 1.275l-19.41 7.542-3.046 6.112h-.001c-.716 0-1.297.58-1.297 1.297 0 .716.58 1.296 1.297 1.296.716 0 1.296-.58 1.296-1.296 0-.362-.148-.689-.387-.924l2.846-5.71 19.058-7.405z"/>
+        <path fill="url(#prefix__o)" fill-rule="nonzero" d="M232.962 75.111c-.716 0-1.296.581-1.296 1.297s.58 1.297 1.296 1.297c.717 0 1.297-.581 1.297-1.297 0-.23-.065-.444-.17-.631l7.73-12.347-3.9-13.989c.304-.237.503-.603.503-1.02 0-.716-.58-1.296-1.296-1.296-.716 0-1.297.58-1.297 1.297 0 .664.502 1.205 1.146 1.28l3.785 13.574-7.444 11.89c-.113-.032-.23-.055-.354-.055z"/>
+        <path fill="url(#prefix__p)" fill-rule="nonzero" d="M251.311 168.06c-.716 0-1.296.581-1.296 1.297 0 .717.58 1.297 1.296 1.297.322 0 .612-.122.839-.315l18.19 10.847 28.362.472c.189.483.656.827 1.206.827.716 0 1.296-.58 1.296-1.297 0-.716-.58-1.296-1.296-1.296-.535 0-.994.324-1.192.787l-28.098-.468-18.021-10.746c.003-.036.01-.07.01-.108 0-.716-.58-1.296-1.296-1.296z"/>
+        <path fill="url(#prefix__q)" fill-rule="nonzero" d="M278.523 175.877c.716 0 1.296-.58 1.296-1.296 0-.716-.58-1.297-1.296-1.297-.317 0-.603.118-.828.306l-9.116-4.81c.003-.042.012-.083.012-.125 0-.716-.58-1.297-1.297-1.297-.716 0-1.296.58-1.296 1.297 0 .716.58 1.297 1.296 1.297.317 0 .603-.118.828-.307l9.116 4.812c-.004.041-.012.081-.012.124 0 .716.58 1.296 1.297 1.296z"/>
+        <path fill="url(#prefix__r)" fill-rule="nonzero" d="M286.929 174.203c.716 0 1.296-.58 1.296-1.296 0-.716-.58-1.297-1.296-1.297-.03 0-.058.007-.087.009l-3.787-7.72-13.729-4.532-9.452 4.391c-.232-.214-.539-.348-.88-.348-.716 0-1.296.58-1.296 1.297 0 .716.58 1.296 1.297 1.296.716 0 1.296-.58 1.296-1.296 0-.021-.005-.04-.006-.06l9.102-4.229 12.97 4.28 3.605 7.351c-.203.229-.33.527-.33.858 0 .716.58 1.296 1.297 1.296z"/>
+        <path fill="url(#prefix__s)" fill-rule="nonzero" d="M317.208 201.74c.717 0 1.297-.58 1.297-1.296 0-.716-.58-1.296-1.297-1.296-.21 0-.404.054-.58.142l-10.29-8.964h-34.66c-.193-.472-.657-.807-1.2-.807-.715 0-1.296.581-1.296 1.297s.58 1.297 1.297 1.297c.542 0 1.006-.335 1.2-.807h34.293l10.014 8.722c-.045.132-.074.27-.074.416 0 .716.58 1.297 1.296 1.297z"/>
+        <path fill="url(#prefix__t)" fill-rule="nonzero" d="M236.897 169.703l33.463 33.463h28.386l17.973 17.973v30.386c-.935.208-1.635 1.042-1.635 2.04 0 1.155.936 2.092 2.092 2.092 1.155 0 2.092-.937 2.092-2.092 0-.975-.668-1.791-1.57-2.023v-30.808l-18.547-18.548h-28.386l-33.175-33.175-.693.692z"/>
+        <path fill="url(#prefix__u)" fill-rule="nonzero" d="M168.59 27.754c-.716 0-1.296.58-1.296 1.297 0 .697.551 1.261 1.241 1.29l4.216 8.877v15.335c-.473.193-.807.657-.807 1.2 0 .716.581 1.296 1.297 1.296s1.297-.58 1.297-1.297c0-.542-.335-1.006-.808-1.199V38.997l-4.27-8.99c.26-.238.427-.576.427-.956 0-.716-.58-1.297-1.297-1.297z"/>
+        <path fill="url(#prefix__v)" fill-rule="nonzero" d="M201.257 246.973c0 1.155.936 2.092 2.092 2.092 1.155 0 2.092-.937 2.092-2.092 0-.957-.644-1.762-1.521-2.01v-17.551l-8.568-8.567v-24.928h-.979v25.333l8.568 8.567v17.105c-.96.19-1.684 1.035-1.684 2.051z"/>
+        <path fill="url(#prefix__w)" fill-rule="nonzero" d="M170.988 217.642c0-.716-.58-1.296-1.296-1.296-.716 0-1.297.58-1.297 1.296 0 .543.334 1.006.807 1.2v29.267c-.473.194-.807.657-.807 1.2 0 .716.58 1.296 1.297 1.296.716 0 1.296-.58 1.296-1.296 0-.543-.334-1.006-.807-1.2v-29.267c.473-.194.807-.657.807-1.2z"/>
+        <path fill="url(#prefix__x)" fill-rule="nonzero" d="M308.285 228.594c.717 0 1.297-.58 1.297-1.297 0-.716-.58-1.297-1.297-1.297-.17 0-.332.035-.481.095l-15.089-15.6c.07-.16.111-.336.111-.522 0-.716-.58-1.297-1.296-1.297-.717 0-1.297.58-1.297 1.297 0 .716.58 1.296 1.297 1.296.17 0 .332-.034.48-.094l15.09 15.6c-.07.16-.111.336-.111.522 0 .716.58 1.297 1.296 1.297z"/>
+        <path fill="url(#prefix__y)" fill-rule="nonzero" d="M205.36 255.469c-.096-.62-.628-1.097-1.276-1.097-.716 0-1.297.58-1.297 1.297 0 .716.581 1.296 1.297 1.296.434 0 .817-.215 1.052-.543l29.82 7.082h4.237l-33.833-8.035z"/>
+        <path fill="url(#prefix__z)" fill-rule="nonzero" d="M222.543 186.085l-.869.451 7.046 13.569-4.159 13.144 6.577 12.664 27.602 8.734 8.555 16.473c-.44.384-.72.947-.72 1.578 0 1.155.936 2.091 2.091 2.091 1.155 0 2.092-.936 2.092-2.091 0-1.156-.937-2.092-2.092-2.092-.173 0-.34.023-.502.063l-8.741-16.833-27.603-8.734-6.203-11.945 4.16-13.144-7.234-13.928z"/>
+        <path fill="url(#prefix__A)" fill-rule="nonzero" d="M208.797 60.212c0 .716.58 1.297 1.297 1.297.716 0 1.296-.581 1.296-1.297 0-.559-.355-1.03-.85-1.213l-.264-10.698 8.922-8.868V29.345c.473-.193.807-.656.807-1.199 0-.716-.58-1.297-1.297-1.297-.716 0-1.296.581-1.296 1.297 0 .543.334 1.006.807 1.2v9.68l-8.932 8.878.274 11.128c-.45.204-.764.654-.764 1.18z"/>
+        <path fill="url(#prefix__B)" fill-rule="nonzero" d="M45.59 193.273c-.715 0-1.296.58-1.296 1.296 0 .717.58 1.297 1.297 1.297.716 0 1.296-.58 1.296-1.297 0-.064-.01-.126-.018-.187l16.959-10.046c.238.276.585.454.978.454.716 0 1.297-.58 1.297-1.297 0-.716-.581-1.296-1.297-1.296-.677 0-1.227.52-1.285 1.183L46.37 193.54c-.218-.166-.485-.267-.78-.267z"/>
+        <path fill="url(#prefix__C)" fill-rule="nonzero" d="M361.78 137.462c.193.473.657.807 1.2.807.716 0 1.296-.58 1.296-1.296 0-.716-.58-1.297-1.297-1.297-.542 0-1.006.334-1.199.807h-9.994l-18.242 18.243c-.155-.065-.325-.102-.503-.102-.716 0-1.297.581-1.297 1.297s.58 1.297 1.297 1.297c.716 0 1.296-.581 1.296-1.297 0-.179-.036-.348-.1-.503l17.955-17.956h9.588z"/>
+        <path fill="url(#prefix__D)" fill-rule="nonzero" d="M42.297 158.32c.716 0 1.296-.58 1.296-1.297 0-.716-.58-1.296-1.296-1.296-.716 0-1.297.58-1.297 1.296 0 .116.02.226.049.333-1.667 1.218-5.294 3.808-8.223 5.89-.2-.127-.437-.204-.692-.204-.716 0-1.297.58-1.297 1.297 0 .716.58 1.296 1.297 1.296.716 0 1.296-.58 1.296-1.296 0-.102-.014-.2-.036-.294 4.781-3.397 7.106-5.065 8.243-5.91.195.115.418.185.66.185z"/>
+        <path fill="url(#prefix__E)" fill-rule="nonzero" d="M309.984 152.99c-.716 0-1.297.58-1.297 1.297 0 .716.581 1.296 1.297 1.296.073 0 .143-.01.213-.021l3.823 8.669 17.738 5.247c.066.654.612 1.166 1.283 1.166.716 0 1.297-.58 1.297-1.297 0-.716-.58-1.296-1.297-1.296-.409 0-.769.193-1.006.488l-17.302-5.119-3.696-8.381c.152-.213.244-.471.244-.752 0-.716-.581-1.297-1.297-1.297z"/>
+        <path fill="url(#prefix__F)" fill-rule="nonzero" d="M244.248 154.716l10.86 3.796 14.484-6.982 17.739 6.2 4.674 9.697 23.58 8.242c-.008.068-.011.138-.011.208 0 1.156.936 2.092 2.092 2.092 1.155 0 2.092-.936 2.092-2.092 0-1.155-.937-2.091-2.092-2.091-.738 0-1.385.382-1.757.959l-23.198-8.108-4.674-9.698-18.504-6.467-14.485 6.981-10.477-3.661-.323.924z"/>
+        <path fill="url(#prefix__G)" fill-rule="nonzero" d="M81.39 140.975c.716 0 1.296-.581 1.296-1.297s-.58-1.297-1.296-1.297c-.543 0-1.006.334-1.2.807H65.827l-13.246 13.247c-.155-.065-.325-.101-.503-.101-.717 0-1.297.58-1.297 1.296 0 .717.58 1.297 1.297 1.297.715 0 1.296-.58 1.296-1.297 0-.178-.036-.348-.101-.503l12.96-12.96H80.19c.193.473.657.808 1.2.808z"/>
+        <path fill="url(#prefix__H)" fill-rule="nonzero" d="M33.176 151.23c-.717 0-1.297.581-1.297 1.297s.58 1.297 1.297 1.297c.716 0 1.296-.58 1.296-1.297 0-.177-.036-.346-.1-.5l21.956-21.86c.155.066.326.103.505.103.716 0 1.297-.58 1.297-1.297 0-.716-.58-1.296-1.297-1.296-.716 0-1.296.58-1.296 1.296 0 .178.036.346.1.5l-21.956 21.86c-.155-.066-.326-.103-.505-.103z"/>
+        <path fill="url(#prefix__I)" fill-rule="nonzero" d="M73.19 147.95c.716 0 1.296-.58 1.296-1.296 0-.716-.58-1.296-1.296-1.296-.717 0-1.297.58-1.297 1.296 0 .161.033.314.087.456l-7.1 7.1c-.155-.065-.325-.1-.503-.1-.716 0-1.297.58-1.297 1.296 0 .716.58 1.296 1.297 1.296.716 0 1.296-.58 1.296-1.296 0-.179-.036-.349-.1-.503l7.074-7.075c.165.077.348.123.543.123z"/>
+        <path fill="url(#prefix__J)" fill-rule="nonzero" d="M140.912 75.777c-.106.187-.171.4-.171.631 0 .716.58 1.297 1.297 1.297.716 0 1.296-.581 1.296-1.297s-.58-1.297-1.296-1.297c-.124 0-.24.023-.354.055l-7.444-11.89 3.785-13.573c.644-.075 1.146-.617 1.146-1.281 0-.716-.58-1.297-1.297-1.297-.716 0-1.296.58-1.296 1.297 0 .416.2.782.504 1.02l-3.9 13.988 7.73 12.347z"/>
+        <path fill="url(#prefix__K)" fill-rule="nonzero" d="M326.35 84.205c-.717 0-1.297.58-1.297 1.297 0 .716.58 1.296 1.297 1.296.703 0 1.273-.561 1.293-1.26l13.177-4.956 12.172 21.12h11.322c.194.473.657.807 1.2.807.716 0 1.296-.581 1.296-1.297s-.58-1.297-1.296-1.297c-.543 0-1.006.334-1.2.808h-10.756l-12.306-21.35-13.955 5.249c-.237-.255-.572-.417-.947-.417z"/>
+        <path fill="url(#prefix__L)" fill-rule="nonzero" d="M341.824 112.24c.717 0 1.297-.58 1.297-1.296 0-.716-.58-1.297-1.297-1.297-.716 0-1.296.58-1.296 1.297 0 .177.036.346.1.5l-21.956 21.86c-.155-.067-.326-.103-.505-.103-.716 0-1.297.58-1.297 1.296 0 .717.58 1.297 1.297 1.297.716 0 1.296-.58 1.296-1.297 0-.177-.036-.346-.1-.5l21.956-21.859c.155.066.326.102.505.102z"/>
+        <path fill="url(#prefix__M)" fill-rule="nonzero" d="M353.1 109.84c-.716 0-1.297.581-1.297 1.297 0 .717.581 1.297 1.297 1.297.543 0 1.006-.334 1.2-.807h17.36c.193.473.656.807 1.2.807.715 0 1.296-.58 1.296-1.297 0-.716-.58-1.296-1.297-1.296-.543 0-1.006.334-1.2.807H354.3c-.193-.473-.656-.807-1.199-.807z"/>
+        <path fill="url(#prefix__N)" fill-rule="nonzero" d="M44.294 167.3c.623 0 1.142-.44 1.267-1.025l30.468-5.411.256-.045 4.024-9.017c.013 0 .026.004.04.004.716 0 1.297-.58 1.297-1.296 0-.716-.58-1.297-1.297-1.297-.716 0-1.296.58-1.296 1.297 0 .347.138.661.36.894l-3.811 8.542-30.215 5.366c-.23-.363-.632-.605-1.093-.605-.716 0-1.297.58-1.297 1.296 0 .716.581 1.297 1.297 1.297z"/>
+        <path fill="url(#prefix__O)" fill-rule="nonzero" d="M299.057 158.047c.716 0 1.296-.58 1.296-1.297 0-.716-.58-1.296-1.296-1.296-.014 0-.027.003-.041.004l-4.017-9-27.758-6.657-10.23 4.827c-.23-.211-.534-.344-.872-.344-.716 0-1.297.581-1.297 1.297s.58 1.297 1.297 1.297c.716 0 1.297-.581 1.297-1.297 0-.023-.006-.045-.007-.067l9.919-4.68 26.954 6.464 3.82 8.558c-.223.233-.362.547-.362.894 0 .716.58 1.297 1.297 1.297z"/>
+        <path fill="url(#prefix__P)" fill-rule="nonzero" d="M256.71 115.581c-.716 0-1.296.58-1.296 1.297 0 .716.58 1.296 1.296 1.296.352 0 .669-.14.902-.367l12.277 5.372 14.57-3.882c.237.287.591.473.992.473.717 0 1.297-.581 1.297-1.297s-.58-1.297-1.297-1.297c-.678 0-1.228.523-1.285 1.186l-14.198 3.782-11.964-5.235c0-.01.003-.02.003-.031 0-.716-.58-1.297-1.297-1.297z"/>
+        <path fill="url(#prefix__Q)" fill-rule="nonzero" d="M292.711 96.834l23.198-8.108c.372.577 1.02.96 1.757.96 1.155 0 2.092-.937 2.092-2.093 0-1.155-.937-2.092-2.092-2.092-1.156 0-2.092.937-2.092 2.092 0 .07.003.14.01.21l-23.579 8.24-4.674 9.698-17.739 6.2-14.485-6.982-10.86 3.796.324.924 10.477-3.662L269.532 113l18.505-6.467 4.674-9.698z"/>
+        <path fill="url(#prefix__R)" fill-rule="nonzero" d="M123.689 95.41c.716 0 1.296-.58 1.296-1.296 0-.716-.58-1.297-1.296-1.297-.322 0-.612.122-.839.315l-18.19-10.847-28.362-.472c-.188-.483-.655-.827-1.205-.827-.717 0-1.297.58-1.297 1.297 0 .716.58 1.296 1.297 1.296.535 0 .994-.324 1.192-.787l28.098.468 18.02 10.746c-.002.036-.01.071-.01.108 0 .716.58 1.296 1.296 1.296z"/>
+        <path fill="url(#prefix__S)" fill-rule="nonzero" d="M88.071 89.268c-.716 0-1.296.58-1.296 1.296 0 .716.58 1.297 1.296 1.297.03 0 .058-.007.087-.009l3.787 7.72 13.729 4.532 9.452-4.391c.232.214.539.348.88.348.715 0 1.296-.58 1.296-1.296 0-.717-.58-1.297-1.297-1.297-.716 0-1.296.58-1.296 1.297 0 .02.005.039.006.06l-9.102 4.228-12.97-4.28-3.605-7.351c.203-.229.33-.527.33-.858 0-.716-.58-1.296-1.297-1.296z"/>
+        <path fill="url(#prefix__T)" fill-rule="nonzero" d="M57.792 61.73c-.716 0-1.297.58-1.297 1.297 0 .716.58 1.296 1.297 1.296.21 0 .404-.054.58-.142l10.29 8.963h34.66c.193.473.657.807 1.2.807.715 0 1.296-.58 1.296-1.296 0-.716-.58-1.297-1.297-1.297-.542 0-1.006.334-1.2.807H69.029l-10.014-8.723c.045-.13.074-.269.074-.415 0-.716-.58-1.297-1.296-1.297z"/>
+        <path fill="url(#prefix__U)" fill-rule="nonzero" d="M96.477 87.594c-.716 0-1.296.58-1.296 1.296 0 .716.58 1.297 1.296 1.297.317 0 .603-.118.828-.306l9.116 4.81c-.004.043-.012.083-.012.125 0 .716.58 1.297 1.297 1.297.716 0 1.296-.581 1.296-1.297s-.58-1.297-1.296-1.297c-.317 0-.603.118-.828.307l-9.116-4.812c.004-.041.012-.081.012-.124 0-.716-.58-1.296-1.297-1.296z"/>
+        <path fill="url(#prefix__V)" fill-rule="nonzero" d="M137.082 214.03c-.305.237-.504.603-.504 1.02 0 .715.58 1.296 1.296 1.296.716 0 1.297-.58 1.297-1.297 0-.664-.502-1.205-1.146-1.281l-3.785-13.574 7.444-11.89c.113.033.23.056.354.056.716 0 1.296-.581 1.296-1.297s-.58-1.297-1.296-1.297c-.717 0-1.297.581-1.297 1.297 0 .23.065.444.17.631l-7.73 12.347 3.9 13.989z"/>
+        <path fill="url(#prefix__W)" fill-rule="nonzero" d="M45.59 67.605c-.715 0-1.296.58-1.296 1.296 0 .716.58 1.297 1.297 1.297.294 0 .561-.101.779-.266l17.15 10.16c.06.661.609 1.182 1.286 1.182.716 0 1.297-.58 1.297-1.296 0-.717-.581-1.297-1.297-1.297-.393 0-.74.178-.978.454l-16.96-10.046c.01-.062.02-.124.02-.188 0-.716-.581-1.296-1.297-1.296z"/>
+        <path fill="url(#prefix__X)" fill-rule="nonzero" d="M65.016 110.48c.716 0 1.297-.58 1.297-1.296 0-.716-.581-1.297-1.297-1.297-.073 0-.143.01-.213.022L60.98 99.24l-17.738-5.247c-.066-.654-.612-1.166-1.283-1.166-.716 0-1.297.58-1.297 1.296 0 .716.58 1.297 1.297 1.297.409 0 .768-.193 1.006-.488l17.302 5.118 3.696 8.382c-.152.212-.244.47-.244.752 0 .716.581 1.297 1.297 1.297z"/>
+        <path fill="url(#prefix__Y)" fill-rule="nonzero" d="M89.248 160.803c.701.148 1.389-.3 1.537-1.001.01-.044.016-.088.02-.132l14.21-4.11c.181.23.441.4.75.465.7.148 1.388-.3 1.536-1 .148-.701-.3-1.389-1.001-1.537-.7-.148-1.389.3-1.536 1.001-.01.044-.017.088-.021.131l-14.21 4.11c-.181-.23-.44-.4-.75-.465-.7-.147-1.388.3-1.535 1.002-.148.7.3 1.388 1 1.536z"/>
+        <path fill="url(#prefix__Z)" fill-rule="nonzero" d="M118.29 147.89c.716 0 1.296-.581 1.296-1.297s-.58-1.297-1.296-1.297c-.352 0-.669.141-.903.368l-12.276-5.372-14.57 3.882c-.237-.287-.591-.473-.992-.473-.716 0-1.297.58-1.297 1.297 0 .716.58 1.296 1.297 1.296.678 0 1.228-.522 1.285-1.185l14.198-3.782 11.964 5.234c0 .01-.003.02-.003.032 0 .716.58 1.297 1.297 1.297z"/>
+        <path fill="url(#prefix__aa)" fill-rule="nonzero" d="M75.943 105.424c-.716 0-1.296.58-1.296 1.297 0 .716.58 1.296 1.296 1.296.014 0 .027-.004.041-.004l4.017 9 27.758 6.657 10.23-4.827c.23.211.535.343.872.343.716 0 1.297-.58 1.297-1.296 0-.716-.58-1.297-1.297-1.297-.716 0-1.296.58-1.296 1.297 0 .023.005.044.007.067l-9.92 4.68-26.954-6.464-3.82-8.558c.224-.233.362-.547.362-.895 0-.715-.58-1.296-1.297-1.296z"/>
+        <path fill="url(#prefix__ab)" fill-rule="nonzero" d="M60.715 175.022c.62-.4.957-1.071.957-1.758l23.891-5.751 9.183 5.619 18.86-4.54.197-.048 8.393-13.716 10.79-2.597-.229-.952-11.184 2.692-8.393 13.716-18.27 4.398-9.182-5.62-24.284 5.847c-.031-.061-.066-.122-.104-.181-.626-.971-1.92-1.251-2.891-.626-.971.626-1.251 1.921-.626 2.892.626.971 1.921 1.251 2.892.625z"/>
+        <path fill="url(#prefix__ac)" fill-rule="nonzero" d="M13.22 126.009c-.193-.474-.657-.807-1.2-.807-.716 0-1.296.58-1.296 1.296 0 .716.58 1.297 1.297 1.297.542 0 1.006-.334 1.199-.807h9.994l18.242-18.243c.155.065.325.101.503.101.716 0 1.297-.58 1.297-1.296 0-.716-.58-1.297-1.297-1.297-.716 0-1.296.58-1.296 1.297 0 .178.036.348.1.503l-17.955 17.956H13.22z"/>
+        <path fill="url(#prefix__ad)" fill-rule="nonzero" d="M130.752 108.755l-10.86-3.796-14.484 6.982-17.739-6.2-4.674-9.697-23.58-8.242c.008-.068.011-.138.011-.208 0-1.156-.936-2.092-2.092-2.092-1.155 0-2.092.936-2.092 2.092 0 1.155.937 2.091 2.092 2.091.738 0 1.385-.382 1.757-.959l23.198 8.108 4.674 9.698 18.505 6.467 14.484-6.982 10.478 3.662.322-.924z"/>
+        <path fill="url(#prefix__ae)" fill-rule="nonzero" d="M278.483 32.564c-.076-.014-.153-.024-.233-.024-.716 0-1.296.58-1.296 1.297 0 .716.58 1.296 1.296 1.296.717 0 1.297-.58 1.297-1.296 0-.278-.09-.535-.239-.746l7.02-10.983V10.302c.473-.193.807-.657.807-1.2 0-.715-.58-1.296-1.296-1.296-.717 0-1.297.58-1.297 1.297 0 .542.334 1.006.807 1.2v11.52l-6.866 10.74z"/>
+        <path fill="url(#prefix__af)" fill-rule="nonzero" d="M143.334 23.575c-.409 0-.77.193-1.007.49l-19.924-5.881L114.298.122h-1.073l8.469 18.874 20.357 6.008c.067.653.612 1.164 1.283 1.164.716 0 1.297-.58 1.297-1.296 0-.716-.58-1.297-1.297-1.297z"/>
+        <path fill="url(#prefix__ag)" fill-rule="nonzero" d="M106.334 12.866c.174 0 .341-.024.502-.064l8.742 16.834 27.602 8.733 6.203 11.945-4.098 12.95-.06.194 7.232 13.928.87-.451-7.047-13.569 4.098-12.95.06-.194-6.575-12.664-27.603-8.733-8.554-16.474c.44-.383.72-.947.72-1.577 0-1.156-.936-2.092-2.091-2.092-1.156 0-2.092.936-2.092 2.092 0 1.155.936 2.092 2.091 2.092z"/>
+        <path fill="url(#prefix__ah)" fill-rule="nonzero" d="M131.703 11.696c.432 0 .811-.213 1.047-.537l29.465 7.193c.093.624.627 1.104 1.277 1.104.716 0 1.297-.58 1.297-1.296 0-.716-.58-1.297-1.297-1.297-.431 0-.81.213-1.047.538l-29.465-7.194c-.093-.624-.627-1.104-1.277-1.104-.716 0-1.297.58-1.297 1.297 0 .716.58 1.296 1.297 1.296z"/>
+        <path fill="url(#prefix__ai)" fill-rule="nonzero" d="M96.75 35.134c.715 0 1.296-.58 1.296-1.297 0-.716-.58-1.296-1.296-1.296-.08 0-.157.01-.233.023L89.65 21.822v-11.52c.473-.193.807-.657.807-1.2 0-.715-.58-1.296-1.297-1.296-.716 0-1.296.58-1.296 1.297 0 .542.334 1.006.807 1.2v11.805l7.02 10.983c-.15.211-.24.468-.24.746 0 .716.581 1.297 1.298 1.297z"/>
+        <path fill="url(#prefix__aj)" fill-rule="nonzero" d="M155.562 3.566c.433 0 .813-.214 1.049-.54l19.74 4.774-.212 8.885c-.485.188-.83.656-.83 1.207 0 .716.58 1.296 1.297 1.296.716 0 1.296-.58 1.296-1.296 0-.534-.323-.992-.784-1.19l.231-9.668-20.51-4.959c-.094-.623-.627-1.102-1.277-1.102-.716 0-1.296.581-1.296 1.297s.58 1.296 1.296 1.296z"/>
+        <path fill="url(#prefix__ak)" fill-rule="nonzero" d="M130.59 76.408c.717 0 1.297-.58 1.297-1.297 0-.716-.58-1.296-1.296-1.296-.14 0-.272.028-.399.069-1.01-1.148-3.205-3.55-8.017-8.741-3.209-3.463-6.443-6.935-7.912-8.51.076-.165.122-.348.122-.542 0-.716-.58-1.296-1.297-1.296-.716 0-1.296.58-1.296 1.296 0 .716.58 1.297 1.296 1.297.162 0 .316-.034.459-.088 5.763 6.179 13.508 14.525 15.9 17.212-.094.18-.153.382-.153.6 0 .715.58 1.296 1.297 1.296z"/>
+        <path fill="url(#prefix__al)" fill-rule="nonzero" d="M90.997 52.202c-.716 0-1.296.58-1.296 1.296 0 .716.58 1.297 1.296 1.297.543 0 1.006-.334 1.2-.807h11.84l2.622-8.54 10.101 3.092c.061.66.61 1.178 1.285 1.178.716 0 1.297-.58 1.297-1.296 0-.716-.581-1.297-1.297-1.297-.404 0-.76.19-.999.479l-11.036-3.38-2.696 8.785H92.196c-.193-.474-.656-.807-1.199-.807z"/>
+        <path fill="url(#prefix__am)" fill-rule="nonzero" d="M234.303.122L205.136 7.05c-.235-.328-.618-.544-1.052-.544-.716 0-1.297.581-1.297 1.297s.581 1.297 1.297 1.297c.648 0 1.18-.476 1.276-1.097l33.18-7.88h-4.237z"/>
+        <path fill="url(#prefix__an)" fill-rule="nonzero" d="M250.837 4.24c-.23 0-.443.066-.63.17l-4.98-4.288h-1.5l5.87 5.056c-.033.115-.057.234-.057.36 0 .715.58 1.296 1.297 1.296.716 0 1.296-.58 1.296-1.297 0-.716-.58-1.296-1.296-1.296z"/>
+        <path fill="url(#prefix__ao)" fill-rule="nonzero" d="M260.702.122l-8.105 18.062-19.924 5.88c-.238-.296-.598-.489-1.007-.489-.716 0-1.297.58-1.297 1.297 0 .716.58 1.296 1.297 1.296.67 0 1.216-.511 1.283-1.164l20.357-6.008 8.47-18.874h-1.074z"/>
+        <path fill="url(#prefix__ap)" fill-rule="nonzero" d="M267.295 12.351l-8.555 16.473-27.602 8.734-6.577 12.664 4.16 13.144-7.047 13.569.87.451 7.232-13.929-4.158-13.144 6.202-11.944 27.603-8.734 8.741-16.833c.161.04.329.063.502.063 1.156 0 2.092-.936 2.092-2.092 0-1.155-.936-2.091-2.092-2.091-1.155 0-2.092.936-2.092 2.091 0 .63.28 1.194.721 1.578z"/>
+        <path fill="url(#prefix__aq)" fill-rule="nonzero" d="M182.787 31.653l11.586-11.586V7.127c.92-.22 1.603-1.045 1.603-2.031 0-1.155-.937-2.092-2.092-2.092-1.156 0-2.092.937-2.092 2.092 0 .986.683 1.811 1.602 2.032v12.534l-11.586 11.586v35.088h.98V31.653z"/>
+        <path fill="url(#prefix__ar)" fill-rule="nonzero" d="M202.94 18.55v17.104l-8.567 8.567v25.333h.98V44.626l8.567-8.567V18.51c.877-.249 1.52-1.054 1.52-2.011 0-1.156-.936-2.092-2.091-2.092-1.156 0-2.092.936-2.092 2.092 0 1.015.724 1.861 1.684 2.051z"/>
+        <path fill="url(#prefix__as)" fill-rule="nonzero" d="M197.357 258.354L179.36 240.357 179.36 196.676 178.381 196.676 178.381 240.762 196.665 259.046z"/>
+        <path fill="url(#prefix__at)" fill-rule="nonzero" d="M101.083 21.615c-.717 0-1.297.58-1.297 1.296 0 .716.58 1.297 1.297 1.297.026 0 .052-.007.078-.008l5.765 11.937 21.76 6.894-3.916 13.082c-.613.103-1.081.633-1.081 1.275 0 .716.58 1.297 1.296 1.297.717 0 1.297-.581 1.297-1.297 0-.44-.22-.826-.554-1.06l4.173-13.939-22.277-7.058-5.58-11.556c.206-.23.335-.53.335-.864 0-.716-.58-1.296-1.296-1.296z"/>
+        <path fill="url(#prefix__au)" fill-rule="nonzero" d="M4.173 143.39h21.67l23.13-23.13h15.261l11.015 11.014h51.117v-.979H75.655L64.64 119.28H48.569l-23.132 23.132H4.173c-.22-.919-1.045-1.603-2.032-1.603-1.155 0-2.092.937-2.092 2.092 0 1.156.937 2.092 2.092 2.092.986 0 1.811-.684 2.032-1.602z"/>
+        <path fill="url(#prefix__av)" fill-rule="nonzero" d="M365.514 160.962c-.543 0-1.006.334-1.2.807h-11.322l-12.172 21.12-13.177-4.957c-.02-.698-.59-1.26-1.293-1.26-.716 0-1.297.581-1.297 1.297s.58 1.297 1.297 1.297c.375 0 .71-.162.947-.417l13.956 5.249 12.305-21.35h10.757c.193.473.657.807 1.2.807.716 0 1.296-.58 1.296-1.297 0-.715-.58-1.296-1.297-1.296z"/>
+        <path fill="url(#prefix__aw)" fill-rule="nonzero" d="M21.9 153.63c.716 0 1.297-.58 1.297-1.296 0-.717-.581-1.297-1.297-1.297-.543 0-1.006.334-1.2.807H3.34c-.193-.473-.656-.807-1.199-.807-.716 0-1.297.58-1.297 1.297 0 .716.581 1.296 1.297 1.296.543 0 1.006-.334 1.2-.807H20.7c.193.473.657.807 1.199.807z"/>
+        <path fill="url(#prefix__ax)" fill-rule="nonzero" d="M48.65 179.266c.717 0 1.297-.58 1.297-1.297 0-.716-.58-1.297-1.296-1.297-.704 0-1.273.562-1.293 1.26L34.18 182.89l-12.173-21.12H10.686c-.194-.473-.657-.807-1.2-.807-.716 0-1.296.58-1.296 1.297 0 .716.58 1.296 1.296 1.296.543 0 1.006-.334 1.2-.807h10.757l12.305 21.35 13.955-5.25c.237.256.572.418.948.418z"/>
+        <path fill="url(#prefix__ay)" fill-rule="nonzero" d="M372.86 118.478c-.987 0-1.812.683-2.033 1.602h-21.67l-23.13 23.132h-15.261l-11.015-11.015h-51.117v.979h50.711l11.015 11.015h16.072l23.131-23.132h21.264c.22.919 1.046 1.602 2.032 1.602 1.156 0 2.092-.936 2.092-2.091 0-1.156-.937-2.092-2.092-2.092z"/>
+        <path fill="url(#prefix__az)" fill-rule="nonzero" d="M372.86 151.037c-.544 0-1.007.334-1.2.807H354.3c-.194-.473-.657-.807-1.2-.807-.716 0-1.296.58-1.296 1.297 0 .716.58 1.296 1.296 1.296.543 0 1.006-.334 1.2-.807h17.36c.193.473.657.807 1.2.807.715 0 1.296-.58 1.296-1.296 0-.717-.58-1.297-1.297-1.297z"/>
+        <path fill="url(#prefix__aA)" fill-rule="nonzero" d="M79.37 15.459c.716 0 1.297-.58 1.297-1.297 0-.543-.334-1.006-.807-1.2V2.813h20.749c.193.473.657.807 1.2.807.716 0 1.296-.581 1.296-1.297s-.58-1.297-1.297-1.297c-.542 0-1.006.334-1.2.807H78.882v11.13c-.473.194-.807.657-.807 1.2 0 .716.58 1.297 1.296 1.297z"/>
+        <path fill="url(#prefix__aB)" fill-rule="nonzero" d="M52.86 28.146c.716 0 1.296-.58 1.296-1.297v-.01l16.057-6.696 23.322 23.321c-.066.155-.102.325-.102.503 0 .717.58 1.297 1.297 1.297.716 0 1.296-.58 1.296-1.297 0-.716-.58-1.296-1.296-1.296-.179 0-.348.036-.503.101L70.442 18.987l-16.663 6.949c-.235-.236-.56-.383-.92-.383-.715 0-1.296.58-1.296 1.297 0 .715.58 1.296 1.297 1.296z"/>
+        <path fill="url(#prefix__aC)" fill-rule="nonzero" d="M273.192 3.619c.543 0 1.006-.334 1.2-.807h20.748v10.15c-.473.194-.807.657-.807 1.2 0 .716.581 1.297 1.297 1.297s1.297-.58 1.297-1.297c0-.543-.335-1.006-.807-1.2V1.833H274.39c-.193-.473-.656-.807-1.2-.807-.715 0-1.296.58-1.296 1.297 0 .716.58 1.297 1.297 1.297z"/>
+        <path fill="url(#prefix__aD)" fill-rule="nonzero" d="M83.47 54.795c.716 0 1.297-.58 1.297-1.297 0-.716-.58-1.296-1.297-1.296-.17 0-.332.034-.481.094L67.9 36.696c.07-.16.111-.336.111-.522 0-.716-.58-1.297-1.296-1.297-.717 0-1.297.581-1.297 1.297s.58 1.297 1.297 1.297c.17 0 .332-.035.481-.095l15.089 15.6c-.07.16-.111.336-.111.522 0 .716.58 1.297 1.296 1.297z"/>
+        <path fill="url(#prefix__aE)" fill-rule="nonzero" d="M2.141 112.434c.543 0 1.006-.334 1.2-.807H20.7c.193.473.656.807 1.199.807.716 0 1.297-.58 1.297-1.297 0-.716-.581-1.296-1.297-1.296-.543 0-1.006.334-1.2.807H3.34c-.193-.473-.656-.807-1.2-.807-.715 0-1.296.58-1.296 1.296 0 .716.58 1.297 1.297 1.297z"/>
+        <path fill="url(#prefix__aF)" fill-rule="nonzero" d="M9.486 102.509c.543 0 1.006-.334 1.2-.807h11.322l12.172-21.12 13.177 4.957c.02.698.59 1.26 1.293 1.26.716 0 1.297-.581 1.297-1.297s-.58-1.297-1.297-1.297c-.375 0-.71.162-.947.417l-13.956-5.249-12.305 21.35H10.685c-.193-.473-.656-.807-1.2-.807-.715 0-1.296.58-1.296 1.297 0 .715.58 1.296 1.297 1.296z"/>
+        <path fill="url(#prefix__aG)" fill-rule="nonzero" d="M40.662 51.259c.983 0 1.804-.678 2.03-1.59l14.99-6.552 18.167 18.168h28.386L137.41 94.46l.693-.692-33.463-33.463H76.255L57.9 41.952l-15.225 6.654c-.245-.882-1.053-1.531-2.014-1.531-1.155 0-2.092.937-2.092 2.092s.937 2.092 2.092 2.092z"/>
+        <path fill="url(#prefix__aH)" fill-rule="nonzero" d="M274.391 260.66c-.193-.474-.656-.808-1.2-.808-.715 0-1.296.581-1.296 1.297s.58 1.297 1.297 1.297c.543 0 1.006-.334 1.2-.807h21.728v-11.13c.473-.194.807-.657.807-1.2 0-.716-.58-1.297-1.297-1.297-.716 0-1.297.58-1.297 1.297 0 .543.335 1.006.807 1.2v10.15h-20.749z"/>
+        <path fill="url(#prefix__aI)" fill-rule="nonzero" d="M212.785 18.352l29.465-7.193c.236.324.615.537 1.047.537.716 0 1.297-.58 1.297-1.296 0-.716-.581-1.297-1.297-1.297-.65 0-1.184.48-1.277 1.104L212.555 17.4c-.236-.324-.616-.537-1.047-.537-.716 0-1.297.58-1.297 1.297 0 .716.58 1.296 1.297 1.296.65 0 1.184-.48 1.277-1.104z"/>
+        <path fill="url(#prefix__aJ)" fill-rule="nonzero" d="M209.561 204.439l-.274 11.128 8.932 8.879v9.68c-.473.193-.807.656-.807 1.199 0 .716.58 1.297 1.296 1.297.717 0 1.297-.581 1.297-1.297 0-.543-.334-1.006-.807-1.2V224.04l-8.922-8.87.264-10.697c.495-.182.85-.654.85-1.213 0-.716-.58-1.297-1.296-1.297-.716 0-1.297.581-1.297 1.297 0 .526.314.976.764 1.18z"/>
+        <path fill="url(#prefix__aK)" fill-rule="nonzero" d="M284.003 211.27c.716 0 1.297-.581 1.297-1.297s-.58-1.297-1.297-1.297c-.543 0-1.006.334-1.2.807h-11.84l-2.621 8.54-10.102-3.093c-.06-.66-.61-1.178-1.285-1.178-.716 0-1.296.581-1.296 1.297s.58 1.297 1.296 1.297c.405 0 .761-.19.999-.48l11.037 3.38 2.696-8.784h11.117c.193.473.656.807 1.199.807z"/>
+        <path fill="url(#prefix__aL)" fill-rule="nonzero" d="M232.962 188.36c.124 0 .24-.023.354-.055l7.444 11.89-3.785 13.573c-.644.075-1.146.617-1.146 1.281 0 .716.58 1.297 1.297 1.297.716 0 1.296-.581 1.296-1.297 0-.416-.2-.782-.504-1.02l3.9-13.988-7.73-12.347c.106-.188.171-.4.171-.631 0-.716-.58-1.297-1.296-1.297-.716 0-1.297.58-1.297 1.297 0 .716.58 1.296 1.296 1.296z"/>
+        <path fill="url(#prefix__aM)" fill-rule="nonzero" d="M329.41 193.273c-.294 0-.562.101-.78.266l-17.15-10.16c-.06-.661-.609-1.183-1.286-1.183-.716 0-1.296.581-1.296 1.297s.58 1.297 1.296 1.297c.393 0 .74-.179.978-.454l16.96 10.045c-.01.062-.02.124-.02.188 0 .716.581 1.297 1.297 1.297.717 0 1.297-.58 1.297-1.297 0-.716-.58-1.296-1.297-1.296z"/>
+        <path fill="url(#prefix__aN)" fill-rule="nonzero" d="M305.162 263.01v-19.306l-23.697-23.697c.066-.155.102-.325.102-.503 0-.716-.58-1.297-1.297-1.297-.716 0-1.296.581-1.296 1.297s.58 1.297 1.296 1.297c.179 0 .348-.037.503-.102l23.41 23.41v18.9c-.246.101-.453.276-.596.495h2.17c-.143-.22-.35-.394-.595-.495z"/>
+        <path fill="url(#prefix__aO)" fill-rule="nonzero" d="M250.837 259.23c.716 0 1.296-.58 1.296-1.297 0-.716-.58-1.296-1.296-1.296-.716 0-1.297.58-1.297 1.296 0 .126.023.245.057.36l-6.05 5.21h1.5l5.16-4.443c.187.105.4.17.63.17z"/>
+        <path fill="url(#prefix__aP)" fill-rule="nonzero" d="M267.376 228.14l5.58 11.556c-.206.23-.335.53-.335.864 0 .716.58 1.296 1.296 1.296.717 0 1.297-.58 1.297-1.296 0-.716-.58-1.297-1.297-1.297-.026 0-.052.007-.078.008l-5.765-11.937-21.76-6.894 3.916-13.082c.613-.103 1.081-.633 1.081-1.275 0-.716-.58-1.297-1.296-1.297-.717 0-1.297.581-1.297 1.297 0 .44.22.827.554 1.061l-4.173 13.938 22.277 7.058z"/>
+        <path fill="url(#prefix__aQ)" fill-rule="nonzero" d="M244.594 253.071c0-.716-.58-1.296-1.297-1.296-.431 0-.81.213-1.047.537l-29.465-7.193c-.093-.624-.627-1.104-1.277-1.104-.716 0-1.297.58-1.297 1.296 0 .716.58 1.297 1.297 1.297.431 0 .81-.213 1.047-.537l29.465 7.193c.093.624.627 1.104 1.277 1.104.716 0 1.297-.58 1.297-1.297z"/>
+        <path fill="url(#prefix__aR)" fill-rule="nonzero" d="M278.25 228.337c-.715 0-1.296.58-1.296 1.297 0 .716.58 1.296 1.297 1.296.08 0 .157-.01.232-.023l6.866 10.742v11.52c-.473.193-.807.656-.807 1.199 0 .716.58 1.297 1.297 1.297.716 0 1.296-.581 1.296-1.297 0-.543-.334-1.006-.807-1.2v-11.806l-7.02-10.982c.15-.212.24-.468.24-.746 0-.716-.581-1.297-1.297-1.297z"/>
+        <path fill="url(#prefix__aS)" fill-rule="nonzero" d="M271.678 72.165c-.193-.473-.656-.807-1.199-.807-.716 0-1.297.58-1.297 1.297 0 .716.581 1.296 1.297 1.296.543 0 1.006-.334 1.2-.807h34.66l10.29-8.963c.175.088.37.142.58.142.716 0 1.296-.58 1.296-1.296 0-.717-.58-1.297-1.297-1.297-.716 0-1.296.58-1.296 1.297 0 .146.03.284.074.415l-10.014 8.723h-34.294z"/>
+        <path fill="url(#prefix__aT)" fill-rule="nonzero" d="M244.41 187.063c-.717 0-1.297.58-1.297 1.296 0 .716.58 1.297 1.296 1.297.14 0 .272-.028.399-.069 1.01 1.147 3.205 3.55 8.016 8.74 3.21 3.464 6.444 6.936 7.913 8.51-.077.166-.122.348-.122.542 0 .716.58 1.297 1.297 1.297.716 0 1.296-.58 1.296-1.297 0-.716-.58-1.296-1.296-1.296-.162 0-.316.033-.46.087-5.762-6.178-13.507-14.525-15.9-17.212.095-.18.154-.381.154-.598 0-.717-.58-1.297-1.297-1.297z"/>
+        <path fill="url(#prefix__aU)" fill-rule="nonzero" d="M253.306 244.475l-20.357-6.008c-.067-.653-.613-1.165-1.283-1.165-.716 0-1.297.58-1.297 1.297 0 .716.58 1.296 1.297 1.296.409 0 .769-.193 1.007-.489l19.924 5.881 8.175 18.217h1.073l-8.447-18.823-.092-.206z"/>
+        <path fill="url(#prefix__aV)" fill-rule="nonzero" d="M268.99 44.225l-11.036 3.379c-.238-.29-.595-.479-.999-.479-.716 0-1.297.58-1.297 1.297 0 .716.581 1.296 1.297 1.296.675 0 1.224-.518 1.285-1.178l10.101-3.093 2.621 8.54h11.841c.194.474.657.808 1.2.808.716 0 1.296-.58 1.296-1.297 0-.716-.58-1.296-1.296-1.296-.543 0-1.006.333-1.2.807h-11.117l-2.696-8.784z"/>
+        <path fill="url(#prefix__aW)" fill-rule="nonzero" d="M303.706.122c.13.147.292.264.477.34v18.9l-23.41 23.41c-.155-.065-.324-.101-.503-.101-.716 0-1.296.58-1.296 1.296 0 .717.58 1.297 1.296 1.297.716 0 1.297-.58 1.297-1.297 0-.178-.036-.348-.102-.503l23.554-23.553.143-.143V.46c.185-.075.347-.192.477-.339h-1.933z"/>
+        <path fill="url(#prefix__aX)" fill-rule="nonzero" d="M311.172 79.135c-.238-.276-.585-.454-.978-.454-.716 0-1.296.58-1.296 1.297 0 .716.58 1.296 1.296 1.296.677 0 1.227-.52 1.285-1.182l17.151-10.16c.218.165.486.266.78.266.716 0 1.296-.58 1.296-1.296 0-.717-.58-1.297-1.297-1.297-.716 0-1.296.58-1.296 1.297 0 .064.01.126.019.187l-16.96 10.046z"/>
+        <path fill="url(#prefix__aY)" fill-rule="nonzero" d="M251.311 92.817c-.716 0-1.296.58-1.296 1.296 0 .716.58 1.297 1.296 1.297.716 0 1.297-.58 1.297-1.297 0-.037-.008-.071-.011-.108l18.02-10.746 28.099-.467c.198.463.657.787 1.192.787.716 0 1.297-.58 1.297-1.297 0-.716-.581-1.296-1.297-1.296-.55 0-1.017.343-1.206.827l-28.362.472-18.19 10.847c-.227-.194-.517-.315-.839-.315z"/>
+        <path fill="url(#prefix__aZ)" fill-rule="nonzero" d="M245.099 42.389l4.173 13.938c-.334.234-.554.621-.554 1.06 0 .717.58 1.297 1.297 1.297.716 0 1.296-.58 1.296-1.296 0-.642-.468-1.172-1.08-1.275l-3.918-13.082 21.56-6.83.201-.064L273.84 24.2c.026.001.052.008.078.008.717 0 1.297-.581 1.297-1.297s-.58-1.297-1.297-1.297c-.716 0-1.296.581-1.296 1.297 0 .333.13.634.336.864l-5.58 11.556-22.278 7.058z"/>
+        <path fill="url(#prefix__ba)" fill-rule="nonzero" d="M292.011 52.296c-.149-.06-.31-.094-.481-.094-.717 0-1.297.58-1.297 1.296 0 .716.58 1.297 1.297 1.297.716 0 1.296-.58 1.296-1.297 0-.186-.04-.362-.11-.521l15.088-15.601c.15.06.31.095.481.095.717 0 1.297-.581 1.297-1.297s-.58-1.297-1.297-1.297c-.715 0-1.296.581-1.296 1.297 0 .186.04.362.111.522l-15.089 15.6z"/>
+        <path fill="url(#prefix__bb)" fill-rule="nonzero" d="M244.41 73.815c-.717 0-1.297.58-1.297 1.296 0 .716.58 1.297 1.296 1.297.716 0 1.297-.58 1.297-1.297 0-.217-.059-.419-.153-.598 2.392-2.687 10.137-11.034 15.9-17.212.143.054.297.087.459.087.716 0 1.296-.58 1.296-1.296 0-.716-.58-1.297-1.296-1.297-.716 0-1.297.58-1.297 1.297 0 .194.046.376.122.541-1.469 1.575-4.703 5.047-7.912 8.51-4.811 5.192-7.007 7.594-8.017 8.741-.126-.041-.259-.07-.399-.07z"/>
+        <path fill="url(#prefix__bc)" fill-rule="nonzero" d="M316.72 11.946v30.386l-17.974 17.973H270.36l-33.463 33.462.693.693 33.175-33.176h28.386l18.547-18.547V11.93c.902-.232 1.57-1.049 1.57-2.024 0-1.155-.937-2.091-2.092-2.091-1.156 0-2.092.936-2.092 2.091 0 .999.7 1.832 1.635 2.04z"/>
+        <path fill="url(#prefix__bd)" fill-rule="nonzero" d="M310.623 109.362c.717 0 1.297-.58 1.297-1.297 0-.716-.58-1.296-1.297-1.296-.716 0-1.296.58-1.296 1.296 0 .179.036.348.101.503l-7.075 7.075c-.165-.077-.348-.123-.543-.123-.716 0-1.296.58-1.296 1.297 0 .716.58 1.296 1.296 1.296.717 0 1.297-.58 1.297-1.296 0-.162-.033-.314-.087-.457l7.1-7.1c.155.065.325.102.503.102z"/>
+        <path fill="url(#prefix__be)" fill-rule="nonzero" d="M267.294 93.52c-.716 0-1.296.58-1.296 1.296 0 .716.58 1.297 1.296 1.297.716 0 1.297-.581 1.297-1.297 0-.043-.009-.083-.012-.124l9.116-4.812c.225.189.511.307.828.307.716 0 1.296-.58 1.296-1.297 0-.716-.58-1.297-1.296-1.297-.717 0-1.297.581-1.297 1.297 0 .043.009.083.013.124l-9.117 4.811c-.225-.188-.511-.306-.828-.306z"/>
+        <path fill="url(#prefix__bf)" fill-rule="nonzero" d="M344.163 99.132c0-.716-.581-1.297-1.297-1.297s-1.297.581-1.297 1.297c0 .102.015.2.037.294-4.781 3.397-7.106 5.065-8.244 5.91-.194-.115-.417-.185-.659-.185-.716 0-1.296.58-1.296 1.297 0 .716.58 1.296 1.296 1.296.717 0 1.297-.58 1.297-1.296 0-.116-.02-.226-.049-.333 1.667-1.218 5.294-3.808 8.223-5.89.2.127.437.204.692.204.716 0 1.297-.58 1.297-1.297z"/>
+        <path fill="url(#prefix__bg)" fill-rule="nonzero" d="M258.995 97.468c-.716 0-1.297.58-1.297 1.296 0 .716.58 1.297 1.297 1.297.34 0 .647-.134.879-.348l9.453 4.39 13.728-4.53 3.787-7.721c.03.002.057.009.087.009.716 0 1.296-.581 1.296-1.297s-.58-1.297-1.296-1.297c-.716 0-1.297.581-1.297 1.297 0 .33.128.628.331.857l-3.605 7.35-12.97 4.281-9.102-4.228c0-.02.006-.04.006-.06 0-.716-.581-1.296-1.297-1.296z"/>
+        <path fill="url(#prefix__bh)" fill-rule="nonzero" d="M293.61 125.09c.543 0 1.007-.334 1.2-.807h14.363l13.247-13.247c.154.065.324.101.503.101.716 0 1.296-.58 1.296-1.296 0-.716-.58-1.297-1.296-1.297-.716 0-1.297.58-1.297 1.297 0 .178.036.348.101.503l-12.96 12.96H294.81c-.193-.474-.657-.808-1.2-.808-.716 0-1.296.581-1.296 1.297s.58 1.297 1.297 1.297z"/>
+        <path fill="url(#prefix__bi)" fill-rule="nonzero" d="M330.706 98.765c.716 0 1.297-.581 1.297-1.297s-.581-1.297-1.297-1.297c-.623 0-1.142.44-1.267 1.025l-30.724 5.456-4.024 9.017c-.013 0-.026-.004-.04-.004-.717 0-1.297.58-1.297 1.297 0 .716.58 1.296 1.297 1.296.716 0 1.296-.58 1.296-1.296 0-.348-.138-.662-.361-.895l3.812-8.542 30.215-5.366c.23.363.632.606 1.093.606z"/>
+        <circle cx="68" cy="68" r="62" fill="#01F6F7" stroke="#00FAF9" stroke-width="12" transform="translate(120 64)"/>
+    </g>
+</svg>

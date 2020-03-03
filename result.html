@@ -4,6 +4,9 @@
   <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/6.2.0/firebase-auth.js"></script>
 
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
+
   <script>
 
     const CONFIG = {
@@ -28,19 +31,29 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coronavirus test</title>
-  <style>
-    * {
-      text-align: center;
-    } 
-  </style>
 </head>
-<body>
-  <h1 style="background: red; color: white;">Tienes coronavirus</h1>
-  <p>El coronavirus no tiene cura (carita triste)</p>
-  <p>Pero puedes infectar a todos tus amigos de whatsapp (carita de hijo de puta)</p>
-  <p>Corre, hazlo, o te deseo una vida con poco sexo y muchos hijos</p>
-  <p>Compartir:</p>
-  <a href="whatsapp://send?text=Loc@, te acuerdas del ántrax? Pues esto pega más y es digital, corre a pillar un poco que se lo están quedando todo los chinos! https://pacorampas.github.io/coronavirus/" data-action="share/whatsapp/share">Compartir en Whatsapp</a>
+<body class="result">
+  <h1>Tienes<br />coronavirus</h1>
+  
+  <div class="result-wrapper">
+    <ul class="result-list">
+      <li>
+        <p>El coronavirus no tiene cura (carita triste)</p>
+      </li>
+      <li>
+        <p>!Pero no te quedes en casa! ¡Puedes infectar a todos tus amigos! (carita de hijo de puta)</p>
+      </li>
+    </ul>
+    
+    <p>Corre, hazlo, o te deseo una vida con poco sexo y muchos hijos</p>
+  
+    <a class="result-share-button button warning" href="whatsapp://send?text=Loc@, te acuerdas del ántrax? Esta mierda pega más, corre a pillar un poco que se lo están quedando todo los chinos! https://pacorampas.github.io/coronavirus/" data-action="share/whatsapp/share">¡INFECTA AHORA!</a>
+  </div>
+
+  <div class="result-wrapper-logo">
+    <img width="30%" src="assets/logo.svg" />
+  </div>
+
 </body>
 
 </html>
