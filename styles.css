@@ -135,25 +135,29 @@ p {
 .finger-print {
   content: '';
   position: absolute;
+  top: 50%;
+  margin-top: -32px;
   width: 60px;
-  top: 101px;
-  left: 159px;
+  left: 50%;
+  margin-left: -30px;
   background: url(assets/finger-print.png);
   background-repeat: no-repeat;
   background-size: 100%;
   z-index: 2;
-  height: 200px;
+  height: 191px;
 }
 
 #finger-box:before {
   content: '';
   display: none;
-  width: 351px;
+  width: 260px;
   height: 6px;
   border-radius: 3px;
   border: solid 4px rgba(0, 0, 0, 0.5);
   background-color: #ff2859;
   position: absolute;
+  left: 50%;
+  margin-left: -130px;
   z-index: 3;
 }
 
