@@ -1,81 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
-  
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coronavirus test</title>
-</head>
-<body class="test">
-  <h1>Test de huella<br />dactilar</h1>
-  <div>
-    <p>Manten el dedo sobre la huella hasta que acabe la cuenta atrás (<strong><span id="count-down"></span></strong>)</p>
-    <p class="info"><i>Activa el sonido para una experiencia completa</i></p>
-  </div>
-  <div class="test-content">
-    <div id="finger-box-wrapper">
-      <div id="finger-box">
-        <div class="finger-print"></div>
-      </div>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coronavirus test</title>
+  </head>
+  <body class="test">
+    <h1>Test de huella<br />dactilar</h1>
+    <div>
+      <p>
+        Manten el dedo sobre la huella hasta que acabe la cuenta atrás (<strong
+          ><span id="count-down"></span></strong
+        >)
+      </p>
+      <p class="info"><i>Activa el sonido para una experiencia completa</i></p>
     </div>
-    <audio id="machine-sound" src="machine-sound.mp3"></audio>
-  </div>
-  <div class="result-wrapper-logo">
-    <img width="45%" src="assets/logo.svg" />
-  </div>
+    <div class="test-content">
+      <div id="finger-box-wrapper">
+        <div id="finger-box">
+          <div class="finger-print"></div>
+        </div>
+      </div>
+      <audio id="machine-sound" src="machine-sound.mp3"></audio>
+    </div>
+    <div class="result-wrapper-logo">
+      <img width="45%" src="assets/logo.svg" />
+    </div>
 
-  <div id="cookies-message">
-    Usamos cookies para saber si esta idea chorra y que no pretende ofender a nadie funciona y la gente lo comparte. Por eso hemos añadido google analytics. Si quieres saber más visita: <a href="https://www.google.com/analytics/terms/">quiero saber más</a>
-    <button id="button-cookies">Entendido</button>
-  </div>
-</body>
-<script src="cookies.js"></script>
-<script>
-  var fingerBox = document.getElementById('finger-box')
-  var machineSound = document.getElementById('machine-sound')
-  var countDown = document.getElementById('count-down')
+    <div id="cookies-message">
+      Usamos cookies para saber si esta idea chorra y que no pretende ofender a
+      nadie funciona y la gente lo comparte. Por eso hemos añadido google
+      analytics. Si quieres saber más visita:
+      <a href="https://www.google.com/analytics/terms/">quiero saber más</a>
+      <button id="button-cookies">Entendido</button>
+    </div>
+  </body>
+  <script src="cookies.js"></script>
+  <script>
+    var fingerBox = document.getElementById("finger-box");
+    var machineSound = document.getElementById("machine-sound");
+    var countDown = document.getElementById("count-down");
 
-  machineSound.onloadedmetadata = function() {
-    var duration = 13
-    countDown.innerHTML = duration
+    var isVibrationAvailable = typeof window.navigator.vibrate === "function";
 
-    var idInterval
+    machineSound.onloadedmetadata = function() {
+      var duration = 13;
+      countDown.innerHTML = duration;
 
-    
+      var idInterval;
 
-    var startHandler = () => {
-      fingerBox.classList.add('active')
-      fingerBox.classList.add('active')
-      machineSound.play()
+      var startHandler = () => {
+        fingerBox.classList.add("active");
+        fingerBox.classList.add("active");
+        machineSound.play();
 
-      idInterval = setInterval(() => {
-        duration -= 1
-        countDown.innerHTML = duration
+        idInterval = setInterval(() => {
+          isVibrationAvailable && window.navigator.vibrate(200);
+          duration -= 1;
+          countDown.innerHTML = duration;
 
-        if (duration === 0) {
-          clearInterval(idInterval)
-          fingerBox.onmousedown = null
-          fingerBox.onmouseup = null
-          fingerBox.classList.remove('active')
-          machineSound.pause()
-          window.location.href = 'result.html'
-        }
-      }, 1000)
-    }
+          if (duration === 0) {
+            clearInterval(idInterval);
+            fingerBox.onmousedown = null;
+            fingerBox.onmouseup = null;
+            fingerBox.classList.remove("active");
+            machineSound.pause();
+            isVibrationAvailable && window.navigator.vibrate(400);
+            setTimeout(() => {
+              window.location.href = "result.html";
+            }, 400);
+          }
+        }, 1000);
+      };
 
-    var endHandler = () => {
-      clearInterval(idInterval)
-      fingerBox.classList.remove('active')
-      machineSound.pause()
-    }
+      var endHandler = () => {
+        clearInterval(idInterval);
+        fingerBox.classList.remove("active");
+        machineSound.pause();
+      };
 
-    fingerBox.addEventListener('touchstart', startHandler)
-    fingerBox.onmousedown = startHandler
+      fingerBox.addEventListener("touchstart", startHandler);
+      fingerBox.onmousedown = startHandler;
 
-    fingerBox.addEventListener('touchend', endHandler)
-    fingerBox.onmouseup = endHandler
-  }
-</script>
+      fingerBox.addEventListener("touchend", endHandler);
+      fingerBox.onmouseup = endHandler;
+    };
+  </script>
 </html>

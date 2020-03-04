@@ -14,13 +14,13 @@ body {
   height: 100%;
   padding: 32px;
   padding-bottom: 16px;
-  background: url(assets/bg-main.png);
-  background-size: 100%;
+  background: url(assets/bg-main.png) center center / cover no-repeat;
+  background-attachment: fixed;
 }
 
 body.result {
-  background: url(assets/bg-result.png);
-  background-size: 100%;
+  background: url(assets/bg-result.png) center center / cover no-repeat;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -68,7 +68,7 @@ p {
 
 @media screen and (min-width: 700px) {
   .index-title {
-     font-size: 50px;
+    font-size: 50px;
   }
 }
 
@@ -135,7 +135,7 @@ p {
 }
 
 .finger-print {
-  content: '';
+  content: "";
   position: absolute;
   top: 50%;
   margin-top: -32px;
@@ -150,7 +150,7 @@ p {
 }
 
 #finger-box:before {
-  content: '';
+  content: "";
   display: none;
   width: 260px;
   height: 6px;
@@ -181,10 +181,10 @@ p {
   }
 }
 
-
 body.result {
   display: flex;
   flex-direction: column;
+  padding: 32px 16px;
 }
 
 .result-list {
