@@ -19,26 +19,40 @@
     <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
 
     <script src="./js/analytics.js"></script>
+
+    <script src="./js/i18n.js"></script>
+    <script>
+      window.onload = () => {
+        i18n("result");
+      };
+    </script>
   </head>
   <body class="result">
-    <h1>Tienes<br />coronavirus</h1>
+    <h1 id="result_title">Tienes<br />coronavirus</h1>
 
     <div class="result-wrapper">
       <ul class="result-list">
         <li>
-          <p>El coronavirus no tiene cura (carita triste)</p>
+          <p id="result_point_1">
+            El coronavirus no tiene cura (carita triste)
+          </p>
         </li>
         <li>
-          <p>
+          <p id="result_point_2">
             ¡Pero no te quedes en casa! ¡Puedes infectar a todos tus amigos!
             (carita de hijo de puta)
           </p>
         </li>
       </ul>
 
-      <p>Corre, hazlo, o te deseo una vida con poco sexo y muchos hijos</p>
+      <p id="result_curse">
+        Corre, hazlo, o te deseo una vida con poco sexo y muchos hijos
+      </p>
 
-      <a class="result-share-button button warning" href="share.html"
+      <a
+        id="result_share_action"
+        class="result-share-button button warning"
+        href="share.html"
         >¡INFECTA AHORA!</a
       >
     </div>
@@ -48,11 +62,16 @@
     </div>
 
     <div id="cookies-message">
-      Usamos cookies para saber si esta idea chorra y que no pretende ofender a
-      nadie funciona y la gente lo comparte. Por eso hemos añadido google
-      analytics. Si quieres saber más visita:
-      <a href="https://www.google.com/analytics/terms/">quiero saber más</a>
-      <button id="button-cookies">Entendido</button>
+      <span id="cookies_message_container"
+        >Usamos cookies para saber si esta idea chorra y que no pretende ofender
+        a nadie funciona y la gente lo comparte. Por eso hemos añadido google
+        analytics. Si quieres saber más visita:
+        <a href="https://www.google.com/analytics/terms/"
+          >quiero saber más</a
+        ></span
+      >
+
+      <button id="cookies_button">Entendido</button>
     </div>
     <script src="cookies.js"></script>
   </body>

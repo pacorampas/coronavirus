@@ -19,36 +19,58 @@
     <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
 
     <script src="./js/analytics.js"></script>
+
+    <script src="./js/i18n.js"></script>
+    <script>
+      window.onload = () => {
+        i18n("share");
+
+        const translation = translate("shareMessage");
+        const twitterButton = document.querySelector(".share-button.tw");
+        const facebookButton = document.querySelector(".share-button.fb");
+        const whatsappButton = document.querySelector(".share-button.wp");
+        const telegramButton = document.querySelector(".share-button.tel");
+
+        twitterButton.href = `https://twitter.com/share?text=${translation}&url=https://infectit.fun`;
+        facebookButton.href = `https://www.facebook.com/sharer/sharer.php?u=https://infectit.fun`;
+        whatsappButton.href = `whatsapp://send?text=${translation} https://infectit.fun`;
+        telegramButton.href = `https://t.me/share/url?url=https://infectit.fun&text=${translation}`;
+      };
+    </script>
   </head>
   <body class="result">
-    <h1>INFECTA A TUS<br />AMIGOS</h1>
+    <h1 id="share_title">INFECTA A TUS<br />AMIGOS</h1>
 
     <div class="share-wrapper">
       <div class="share-wrapper-content">
         <a
           class="share-button tw"
-          href="https://twitter.com/share?url=https://pacorampas.github.io/coronavirus/"
+          rel="noopener noreferrer"
+          href="https://twitter.com/share?text=&url=https://pacorampas.github.io/coronavirus/"
           target="_blank"
         >
         </a>
 
         <a
           class="share-button fb"
+          rel="noopener noreferrer"
           href="https://www.facebook.com/sharer/sharer.php?u=https://pacorampas.github.io/coronavirus/"
           target="_blank"
         >
         </a>
 
         <a
-          class="share-button"
+          class="share-button wp"
+          rel="noopener noreferrer"
           href="whatsapp://send?text=Loc@, te acuerdas del ántrax? Esta mierda pega más, corre a pillar un poco que se lo están quedando todo los chinos! https://pacorampas.github.io/coronavirus/"
           data-action="share/whatsapp/share"
         >
         </a>
 
         <a
-          class="share-button"
+          class="share-button tel"
           target="_blank"
+          rel="noopener noreferrer"
           href="https://t.me/share/url?url=https://pacorampas.github.io/coronavirus/&text=Loc@, te acuerdas del ántrax? Esta mierda pega más, corre a pillar un poco que se lo están quedando todo los chinos!"
         >
         </a>
@@ -62,20 +84,23 @@
     </div>
 
     <div id="cookies-message">
-      Usamos cookies para saber si esta idea chorra y que no pretende ofender a
-      nadie funciona y la gente lo comparte. Por eso hemos añadido google
-      analytics. Si quieres saber más visita:
-      <a href="https://www.google.com/analytics/terms/">quiero saber más</a>
-      <button id="button-cookies">Entendido</button>
+      <span id="cookies_message_container"
+        >Usamos cookies para saber si esta idea chorra y que no pretende ofender
+        a nadie funciona y la gente lo comparte. Por eso hemos añadido google
+        analytics. Si quieres saber más visita:
+        <a href="https://www.google.com/analytics/terms/"
+          >quiero saber más</a
+        ></span
+      >
+
+      <button id="cookies_button">Entendido</button>
     </div>
     <script src="cookies.js"></script>
   </body>
   <script>
     var msnButton = document.getElementById("msn-button");
     msnButton.onclick = function() {
-      alert(
-        "Este botón no funciona, pero si sigues usamndo messenger mis felicitaciones. Tu molas. :)"
-      );
+      alert(translate("shareJoke"));
     };
   </script>
 </html>

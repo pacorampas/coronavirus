@@ -19,6 +19,13 @@
     <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
 
     <script src="./js/analytics.js"></script>
+
+    <script src="./js/i18n.js"></script>
+    <script>
+      window.onload = () => {
+        i18n("index");
+      };
+    </script>
   </head>
   <body>
     <div class="index-wrapper">
@@ -26,26 +33,33 @@
         <img width="75%" src="assets/logo.svg" />
       </div>
       <div class="index-wrapper-content">
-        <h1 class="index-title">
+        <h1 id="index_title" class="index-title">
           Has sido<br />infectado por<br />coronavirus
         </h1>
-        <p>Si no te lo crees haz el test...</p>
+        <p id="index_subtitle">Si no te lo crees haz el test...</p>
       </div>
-      <a class="button warning" href="result.html"
+      <a id="index_quick_test" class="button warning" href="result.html"
         ><strong>TEST RÁPIDO</strong><br />(menos de un minuto)</a
       ><br />
-      <a class="button" href="test.html"
+      <a id="index_test" class="button" href="test.html"
         ><strong>TEST PRECISO</strong><br />(también menos de un minuto)</a
       >
-      <p class="disclaimer">Todo esto son absurdeces, tú ni caso</p>
+      <p id="index_disclaimer" class="disclaimer">
+        Todo esto son absurdeces, tú ni caso
+      </p>
     </div>
 
     <div id="cookies-message">
-      Usamos cookies para saber si esta idea chorra y que no pretende ofender a
-      nadie funciona y la gente lo comparte. Por eso hemos añadido google
-      analytics. Si quieres saber más visita:
-      <a href="https://www.google.com/analytics/terms/">quiero saber más</a>
-      <button id="button-cookies">Entendido</button>
+      <span id="cookies_message_container"
+        >Usamos cookies para saber si esta idea chorra y que no pretende ofender
+        a nadie funciona y la gente lo comparte. Por eso hemos añadido google
+        analytics. Si quieres saber más visita:
+        <a href="https://www.google.com/analytics/terms/"
+          >quiero saber más</a
+        ></span
+      >
+
+      <button id="cookies_button">Entendido</button>
     </div>
     <script src="cookies.js"></script>
   </body>
