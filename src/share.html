@@ -1,73 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap"
+      rel="stylesheet"
+    />
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coronavirus test</title>
-</head>
-<body class="result">
-  <h1>INFECTA A TUS<br />AMIGOS</h1>
-  
-  <div class="share-wrapper">
-    <div class="share-wrapper-content">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coronavirus test</title>
 
-      <a 
-        class="share-button tw"
-        href="https://twitter.com/share?url=https://pacorampas.github.io/coronavirus/"
-        target="_blank"
-      >
-      </a>
-  
-      <a 
-        class="share-button fb" 
-        href="https://www.facebook.com/sharer/sharer.php?u=https://pacorampas.github.io/coronavirus/" 
-        target="_blank"
-      >
-      </a>
-      
-      <a 
-        class="share-button"
-        href="whatsapp://send?text=Loc@, te acuerdas del ántrax? Esta mierda pega más, corre a pillar un poco que se lo están quedando todo los chinos! https://pacorampas.github.io/coronavirus/" 
-        data-action="share/whatsapp/share"
-      >
-      </a>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
 
-      <a 
-        class="share-button"
-        target="_blank"
-        href="https://t.me/share/url?url=https://pacorampas.github.io/coronavirus/&text=Loc@, te acuerdas del ántrax? Esta mierda pega más, corre a pillar un poco que se lo están quedando todo los chinos!" 
-      >
-      </a>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
 
-      <a 
-        id="msn-button"
-        class="share-button"
-      >
-      </a>
-      
+    <script src="./js/analytics.js"></script>
+  </head>
+  <body class="result">
+    <h1>INFECTA A TUS<br />AMIGOS</h1>
+
+    <div class="share-wrapper">
+      <div class="share-wrapper-content">
+        <a
+          class="share-button tw"
+          href="https://twitter.com/share?url=https://pacorampas.github.io/coronavirus/"
+          target="_blank"
+        >
+        </a>
+
+        <a
+          class="share-button fb"
+          href="https://www.facebook.com/sharer/sharer.php?u=https://pacorampas.github.io/coronavirus/"
+          target="_blank"
+        >
+        </a>
+
+        <a
+          class="share-button"
+          href="whatsapp://send?text=Loc@, te acuerdas del ántrax? Esta mierda pega más, corre a pillar un poco que se lo están quedando todo los chinos! https://pacorampas.github.io/coronavirus/"
+          data-action="share/whatsapp/share"
+        >
+        </a>
+
+        <a
+          class="share-button"
+          target="_blank"
+          href="https://t.me/share/url?url=https://pacorampas.github.io/coronavirus/&text=Loc@, te acuerdas del ántrax? Esta mierda pega más, corre a pillar un poco que se lo están quedando todo los chinos!"
+        >
+        </a>
+
+        <a id="msn-button" class="share-button"> </a>
+      </div>
     </div>
-  
-  </div>
 
-  <div class="result-wrapper-logo">
-    <img width="45%" src="assets/logo.svg" />
-  </div>
+    <div class="result-wrapper-logo">
+      <img width="45%" src="assets/logo.svg" />
+    </div>
 
-  <div id="cookies-message">
-    Usamos cookies para saber si esta idea chorra y que no pretende ofender a nadie funciona y la gente lo comparte. Por eso hemos añadido google analytics. Si quieres saber más visita: <a href="https://www.google.com/analytics/terms/">quiero saber más</a>
-    <button id="button-cookies">Entendido</button>
-  </div>
-  <script src="cookies.js"></script>
-
-</body>
-<script>
-  var msnButton = document.getElementById('msn-button')
-  msnButton.onclick = function() {
-    alert('Este botón no funciona, pero si sigues usamndo messenger mis felicitaciones. Tu molas. :)')
-  }
-</script>
-
+    <div id="cookies-message">
+      Usamos cookies para saber si esta idea chorra y que no pretende ofender a
+      nadie funciona y la gente lo comparte. Por eso hemos añadido google
+      analytics. Si quieres saber más visita:
+      <a href="https://www.google.com/analytics/terms/">quiero saber más</a>
+      <button id="button-cookies">Entendido</button>
+    </div>
+    <script src="cookies.js"></script>
+  </body>
+  <script>
+    var msnButton = document.getElementById("msn-button");
+    msnButton.onclick = function() {
+      alert(
+        "Este botón no funciona, pero si sigues usamndo messenger mis felicitaciones. Tu molas. :)"
+      );
+    };
+  </script>
 </html>

@@ -1,41 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap"
+      rel="stylesheet"
+    />
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coronavirus test</title>
-</head>
-<body class="result">
-  <h1>Tienes<br />coronavirus</h1>
-  
-  <div class="result-wrapper">
-    <ul class="result-list">
-      <li>
-        <p>El coronavirus no tiene cura (carita triste)</p>
-      </li>
-      <li>
-        <p>¡Pero no te quedes en casa! ¡Puedes infectar a todos tus amigos! (carita de hijo de puta)</p>
-      </li>
-    </ul>
-    
-    <p>Corre, hazlo, o te deseo una vida con poco sexo y muchos hijos</p>
-  
-    <a class="result-share-button button warning" href="share.html">¡INFECTA AHORA!</a>
-  </div>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coronavirus test</title>
 
-  <div class="result-wrapper-logo">
-    <img width="45%" src="assets/logo.svg" />
-  </div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
 
-  <div id="cookies-message">
-    Usamos cookies para saber si esta idea chorra y que no pretende ofender a nadie funciona y la gente lo comparte. Por eso hemos añadido google analytics. Si quieres saber más visita: <a href="https://www.google.com/analytics/terms/">quiero saber más</a>
-    <button id="button-cookies">Entendido</button>
-  </div>
-  <script src="cookies.js"></script>
-</body>
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+   https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
 
+    <script src="./js/analytics.js"></script>
+  </head>
+  <body class="result">
+    <h1>Tienes<br />coronavirus</h1>
 
+    <div class="result-wrapper">
+      <ul class="result-list">
+        <li>
+          <p>El coronavirus no tiene cura (carita triste)</p>
+        </li>
+        <li>
+          <p>
+            ¡Pero no te quedes en casa! ¡Puedes infectar a todos tus amigos!
+            (carita de hijo de puta)
+          </p>
+        </li>
+      </ul>
+
+      <p>Corre, hazlo, o te deseo una vida con poco sexo y muchos hijos</p>
+
+      <a class="result-share-button button warning" href="share.html"
+        >¡INFECTA AHORA!</a
+      >
+    </div>
+
+    <div class="result-wrapper-logo">
+      <img width="45%" src="assets/logo.svg" />
+    </div>
+
+    <div id="cookies-message">
+      Usamos cookies para saber si esta idea chorra y que no pretende ofender a
+      nadie funciona y la gente lo comparte. Por eso hemos añadido google
+      analytics. Si quieres saber más visita:
+      <a href="https://www.google.com/analytics/terms/">quiero saber más</a>
+      <button id="button-cookies">Entendido</button>
+    </div>
+    <script src="cookies.js"></script>
+  </body>
 </html>

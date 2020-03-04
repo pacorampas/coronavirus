@@ -1,33 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap"
+      rel="stylesheet"
+    />
 
-  <link rel="stylesheet" type="text/css" href="styles.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,800&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coronavirus test</title>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coronavirus test</title>
-</head>
-<body>
-  <div class="index-wrapper">
-    <div class="index-wrapper-logo">
-      <img width="75%" src="assets/logo.svg" />
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-analytics.js"></script>
+
+    <script src="./js/analytics.js"></script>
+  </head>
+  <body>
+    <div class="index-wrapper">
+      <div class="index-wrapper-logo">
+        <img width="75%" src="assets/logo.svg" />
+      </div>
+      <div class="index-wrapper-content">
+        <h1 class="index-title">
+          Has sido<br />infectado por<br />coronavirus
+        </h1>
+        <p>Si no te lo crees haz el test...</p>
+      </div>
+      <a class="button warning" href="result.html"
+        ><strong>TEST RÁPIDO</strong><br />(menos de un minuto)</a
+      ><br />
+      <a class="button" href="test.html"
+        ><strong>TEST PRECISO</strong><br />(también menos de un minuto)</a
+      >
+      <p class="disclaimer">Todo esto son absurdeces, tú ni caso</p>
     </div>
-    <div class="index-wrapper-content">
-      <h1 class="index-title">Has sido<br />infectado por<br />coronavirus</h1>
-      <p>Si no te lo crees haz el test...</p>
+
+    <div id="cookies-message">
+      Usamos cookies para saber si esta idea chorra y que no pretende ofender a
+      nadie funciona y la gente lo comparte. Por eso hemos añadido google
+      analytics. Si quieres saber más visita:
+      <a href="https://www.google.com/analytics/terms/">quiero saber más</a>
+      <button id="button-cookies">Entendido</button>
     </div>
-    <a class="button warning" href="result.html"><strong>TEST RÁPIDO</strong><br />(menos de un minuto)</a><br />
-    <a class="button" href="test.html"><strong>TEST PRECISO</strong><br />(también menos de un minuto)</a>
-    <p class="disclaimer">Todo esto son absurdeces, tú ni caso</p>
-  </div>
-
-  <div id="cookies-message">
-    Usamos cookies para saber si esta idea chorra y que no pretende ofender a nadie funciona y la gente lo comparte. Por eso hemos añadido google analytics. Si quieres saber más visita: <a href="https://www.google.com/analytics/terms/">quiero saber más</a>
-    <button id="button-cookies">Entendido</button>
-  </div>
-  <script src="cookies.js"></script>
-
-</body>
+    <script src="cookies.js"></script>
+  </body>
 </html>
