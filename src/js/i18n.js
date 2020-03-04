@@ -16,11 +16,11 @@ var resources = {
     },
     result: {
       result_title: "You have<br />coronavirus",
-      result_point_1: "Coronavirus doesn't have known cure (sad face)",
+      result_point_1: "Coronavirus has no cure yet (sad emoji)",
       result_point_2:
         "But don't stay at home! Go outside and infect your friends! (asshole face)",
       result_curse:
-        "Run, do it, or I'll curse you with lack of sex and too much sons",
+        "Run, do it, or I'll curse you with lack of sex and too many kids",
       result_share_action: "INFECT NOW!"
     },
     share: {
@@ -28,7 +28,7 @@ var resources = {
     },
     cookies: {
       cookies_message_container:
-        'We use cookies to check if this stupid idea, that is made just for fun, has sense and people share it with colleagues. So we have added google analytics. If you want further info, please visit: <a href="https://www.google.com/analytics/terms/">I want to know more</a>',
+        'We use cookies to check if this stupid idea, that is made just for fun, make sense and people share it with colleagues. So we have added google analytics. If you want further info, please visit: <a href="https://www.google.com/analytics/terms/">I want to know more</a>',
       cookies_button: "Understood"
     },
     shareMessage:
