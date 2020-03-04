@@ -215,6 +215,10 @@ body.result {
   justify-content: center;
 }
 
+.info {
+  font-size: 14px;
+}
+
 .share-button {
   text-decoration: none;
   display: inline-block;

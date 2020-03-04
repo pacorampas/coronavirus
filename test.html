@@ -36,6 +36,7 @@
   <h1>Test de huella<br />dactilar</h1>
   <div>
     <p>Manten el dedo sobre la huella hasta que acabe la cuenta atrás (<strong><span id="count-down"></span></strong>)</p>
+    <p class="info"><i>Activa el sonido para una experiencia completa</i></p>
   </div>
   <div class="test-content">
     <div id="finger-box-wrapper">
@@ -55,7 +56,7 @@
   var countDown = document.getElementById('count-down')
 
   machineSound.onloadedmetadata = function() {
-    var duration = 14
+    var duration = 13
     countDown.innerHTML = duration
 
     var idInterval
