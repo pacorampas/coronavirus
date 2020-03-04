@@ -207,3 +207,29 @@ body.result {
 .result-share-button {
   margin-top: 40px;
 }
+
+.share-wrapper {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.share-button {
+  text-decoration: none;
+  display: inline-block;
+  width: 136px;
+  height: 136px;
+  background: url(assets/share-msn.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: 10px;
+}
+
+.share-button.fb {
+  background-image: url(assets/share-fb.png);
+}
+
+.share-button.tw {
+  background-image: url(assets/share-twitter.png);
+}
