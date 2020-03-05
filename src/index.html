@@ -11,6 +11,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coronavirus test</title>
 
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/png" />
+
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:type" content="website" />
+    <meta property="og:updated_time" content="2019-12-30T15:32:35+00:00" />
+    <meta property="og:title" content="Coronavirus Test" />
+    <meta
+      property="og:description"
+      content="Has sido infectado por el coronavirus, ¡si no te lo crees haz nuestro test!"
+    />
+    <meta property="og:image" content="https://infectit.fun/assets/rss.jpg" />
+    <meta
+      property="og:image:secure_url"
+      content="https://infectit.fun/assets/rss.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:url" content="https://infectit.fun" />
+
+    <meta name="twitter:title" content="Coronavirus Test" />
+    <meta
+      name="twitter:description"
+      content="Has sido infectado por el coronavirus, ¡si no te lo crees haz nuestro test!"
+    />
+    <meta name="twitter:image" content="https://infectit.fun/assets/rss.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta property="og:site_name" content="Coronavirus Test" />
+    <meta name="twitter:image:alt" content="Infect it Promotional Image" />
+
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
 
@@ -28,25 +59,28 @@
     </script>
   </head>
   <body>
-    <div class="index-wrapper">
-      <div class="index-wrapper-logo">
-        <img width="75%" src="assets/logo.svg" />
+    <img src="assets/bg-result.png" class="bg" />
+    <div class="content">
+      <div class="index-wrapper">
+        <div class="index-wrapper-logo">
+          <img width="75%" src="assets/logo.svg" />
+        </div>
+        <div class="index-wrapper-content">
+          <h1 id="index_title" class="index-title">
+            Has sido<br />infectado por<br />coronavirus
+          </h1>
+          <p id="index_subtitle">Si no te lo crees haz el test...</p>
+        </div>
+        <a id="index_quick_test" class="button warning" href="result.html"
+          ><strong>TEST RÁPIDO</strong><br />(menos de un minuto)</a
+        ><br />
+        <a id="index_test" class="button" href="test.html"
+          ><strong>TEST PRECISO</strong><br />(también menos de un minuto)</a
+        >
+        <p id="index_disclaimer" class="disclaimer">
+          Todo esto son absurdeces, tú ni caso
+        </p>
       </div>
-      <div class="index-wrapper-content">
-        <h1 id="index_title" class="index-title">
-          Has sido<br />infectado por<br />coronavirus
-        </h1>
-        <p id="index_subtitle">Si no te lo crees haz el test...</p>
-      </div>
-      <a id="index_quick_test" class="button warning" href="result.html"
-        ><strong>TEST RÁPIDO</strong><br />(menos de un minuto)</a
-      ><br />
-      <a id="index_test" class="button" href="test.html"
-        ><strong>TEST PRECISO</strong><br />(también menos de un minuto)</a
-      >
-      <p id="index_disclaimer" class="disclaimer">
-        Todo esto son absurdeces, tú ni caso
-      </p>
     </div>
 
     <div id="cookies-message">

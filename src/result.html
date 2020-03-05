@@ -11,6 +11,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coronavirus test</title>
 
+    <link rel="shortcut icon" href="/assets/favicon.png" type="image/png" />
+
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:type" content="website" />
+    <meta property="og:updated_time" content="2019-12-30T15:32:35+00:00" />
+    <meta property="og:title" content="Coronavirus Test" />
+    <meta
+      property="og:description"
+      content="Has sido infectado por el coronavirus, ¡si no te lo crees haz nuestro test!"
+    />
+    <meta property="og:image" content="https://infectit.fun/assets/rss.jpg" />
+    <meta
+      property="og:image:secure_url"
+      content="https://infectit.fun/assets/rss.jpg"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <meta property="og:url" content="https://infectit.fun" />
+
+    <meta name="twitter:title" content="Coronavirus Test" />
+    <meta
+      name="twitter:description"
+      content="Has sido infectado por el coronavirus, ¡si no te lo crees haz nuestro test!"
+    />
+    <meta name="twitter:image" content="https://infectit.fun/assets/rss.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <meta property="og:site_name" content="Coronavirus Test" />
+    <meta name="twitter:image:alt" content="Infect it Promotional Image" />
+
     <!-- The core Firebase JS SDK is always required and must be listed first -->
     <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase-app.js"></script>
 
@@ -28,39 +59,41 @@
     </script>
   </head>
   <body class="result">
-    <h1 id="result_title">Tienes<br />coronavirus</h1>
+    <img src="assets/bg-result.png" class="bg" />
+    <div class="content">
+      <h1 id="result_title">Tienes<br />coronavirus</h1>
 
-    <div class="result-wrapper">
-      <ul class="result-list">
-        <li>
-          <p id="result_point_1">
-            El coronavirus no tiene cura (carita triste)
-          </p>
-        </li>
-        <li>
-          <p id="result_point_2">
-            ¡Pero no te quedes en casa! ¡Puedes infectar a todos tus amigos!
-            (carita de hijo de puta)
-          </p>
-        </li>
-      </ul>
+      <div class="result-wrapper">
+        <ul class="result-list">
+          <li>
+            <p id="result_point_1">
+              El coronavirus no tiene cura (carita triste)
+            </p>
+          </li>
+          <li>
+            <p id="result_point_2">
+              ¡Pero no te quedes en casa! ¡Puedes infectar a todos tus amigos!
+              (carita de hijo de puta)
+            </p>
+          </li>
+        </ul>
 
-      <p id="result_curse">
-        Corre, hazlo, o te deseo una vida con poco sexo y muchos hijos
-      </p>
+        <p id="result_curse">
+          Corre, hazlo, o te deseo una vida con poco sexo y muchos hijos
+        </p>
 
-      <a
-        id="result_share_action"
-        class="result-share-button button warning"
-        href="share.html"
-        >¡INFECTA AHORA!</a
-      >
+        <a
+          id="result_share_action"
+          class="result-share-button button warning"
+          href="share.html"
+          >¡INFECTA AHORA!</a
+        >
+      </div>
+
+      <div class="result-wrapper-logo">
+        <img width="45%" src="assets/logo.svg" />
+      </div>
     </div>
-
-    <div class="result-wrapper-logo">
-      <img width="45%" src="assets/logo.svg" />
-    </div>
-
     <div id="cookies-message">
       <span id="cookies_message_container"
         >Usamos cookies para saber si esta idea chorra y que no pretende ofender

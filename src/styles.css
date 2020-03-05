@@ -7,20 +7,42 @@
 }
 
 html {
+  width: 100%;
   height: 100%;
 }
 
 body {
+  width: 100%;
   height: 100%;
   padding: 32px;
   padding-bottom: 16px;
-  background: url(assets/bg-main.png) center center / cover no-repeat;
-  background-attachment: fixed;
+  position: relative;
 }
 
-body.result {
-  background: url(assets/bg-result.png) center center / cover no-repeat;
-  background-attachment: fixed;
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  overflow: auto;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
@@ -35,6 +57,7 @@ h1 {
   color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 10px;
+  flex-shrink: 0;
 }
 
 p {
@@ -210,9 +233,14 @@ body.result {
 
 .share-wrapper {
   display: flex;
-  flex: 1;
   flex-direction: column;
   justify-content: center;
+  flex: 1;
+  flex-shrink: 0;
+}
+
+.result-wrapper-logo {
+  flex-shrink: 0;
 }
 
 .info {
@@ -255,6 +283,7 @@ body.result {
   background: #eee;
   color: #000;
   padding: 14px;
+  z-index: 9;
 }
 
 #cookies-message.active {
@@ -265,4 +294,12 @@ body.result {
   border: solid 1px #999;
   padding: 6px;
   margin-top: 12px;
+}
+
+.share {
+  box-sizing: border-box;
+}
+
+.share .content {
+  display: block;
 }
